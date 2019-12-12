@@ -1,0 +1,171 @@
+#!/bin/bash -d
+# 启用调试模式 #!/bin/bash -d
+# 读取脚本配置信息
+# Shell编码使用UTF-8，避免乱码
+sub_ipaddr=$1
+cluster_name=hdp-cluster
+NETMASK=255.255.255.0
+GATEWAY=12.12.12.1
+# 公共服务器
+COMMON_SERVER=12.12.12.6
+USER=root
+PASSWORD=timebusker
+ISSURE=yes
+
+if [ ! -n "$sub_ipaddr" ] ; then 
+   echo "请正确输入IP地址！"
+   exit
+fi
+if [ ! -n "$cluster_name" ] ; then 
+   echo "请正确输入集群服务名称！"
+   exit
+fi
+
+#常用配置信息
+#终端vim中文乱码
+cat > /root/.vimrc <<EOF
+set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
+set enc=utf8
+set fencs=utf8,gbk,gb2312,gb18030
+EOF
+
+#关闭邮件提醒——`You have new mail in /var/spool/mail/root`
+echo "unset MAILCHECK">> /etc/profile
+
+#配置SSH服务
+sed -i "s/^#RSAAuthentication\ yes/RSAAuthentication\ yes/g" /etc/ssh/sshd_config
+sed -i "s/^#PubkeyAuthentication\ yes/PubkeyAuthentication yes/g" /etc/ssh/sshd_config
+sed -i "s/^#AuthorizedKeysFile* /AuthorizedKeysFile\ .ssh/authorized_keys/g" /etc/ssh/sshd_config
+sed -i "s/^#PermitRootLogin\ yes/PermitRootLogin\ yes/g" /etc/ssh/sshd_config
+sed -i "s/^#PasswordAuthentication\ yes/PasswordAuthentication\ yes/g" /etc/ssh/sshd_config
+#解决SSH连接缓慢甚至导致`Connection closed by 12.12.12.23`情况
+sed -i "s/^GSSAPIAuthentication\ yes/GSSAPIAuthentication\  no/g" /etc/ssh/sshd_config
+
+#读取正在使用的网卡信息
+net_card=$(ifconfig -a | grep 'Link encap:Ethernet' | awk '{print $1}')
+ipaddr=$(echo $GATEWAY | cut -d '.' -f 1-3).$sub_ipaddr
+echo "net_card:$net_card      ipaddr:$ipaddr"
+#配置网络
+#使用EOF（任意标志）分解符标注输入流内容
+rm -f /etc/sysconfig/network-scripts/ifcfg-eth* 
+cat > "/etc/sysconfig/network-scripts/ifcfg-$net_card" <<EOF
+DEVICE=$net_card
+#HWADDR=00:0C:29:54:F3:3D
+TYPE=Ethernet
+#UUID=d90f4fb6-f73c-4459-99e5-30ba2e611728
+ONBOOT=yes
+NM_CONTROLLED=yes
+#BOOTPROTO=dhcp
+BOOTPROTO=static
+IPADDR=$ipaddr
+NETMASK=$NETMASK
+GATEWAY=$GATEWAY
+EOF
+
+#设置主机名
+hostsname="$cluster_name-$sub_ipaddr"
+sed -i "s/HOSTNAME.*/HOSTNAME=$hostsname/" /etc/sysconfig/network
+
+#SSH秘钥
+rm -rf /root/.ssh/*
+ssh-keygen -t rsa -P '' -f /root/.ssh/id_rsa
+
+# 中途重启重置网络，保障网络通
+service network restart
+
+# 判断是否在当前公共服务主机上操作
+if [ "$ipaddr" -eq  "$COMMON_SERVER" ] ; then
+    cat /root/.ssh/id_rsa.pub >> /root/.ssh/authorized_keys
+	echo "$ipaddr     $hostsname" >> /etc/hosts
+	exit
+fi
+
+#集群同步hosts和SSH秘钥
+/usr/bin/expect <<EOF
+    # 默认情况下，timeout是10秒
+    set timeout 10
+    spawn ssh $USER@$COMMON_SERVER
+	# expect { 之间保留空格
+    expect {
+       "(yes/no)?" {
+	     # send命令中“\r”表示换行，作为命令分割
+         send "$ISSURE\r";
+		 # exp_continue会重新从当前expect块的开始重新执行
+    	 exp_continue
+       }
+       "password:" {
+         send "$PASSWORD\r";
+    	 exp_continue
+       }
+    }
+	expect "Last login:"
+	# 删除IP对应已有的主机名
+	send "sed -i '/$ipaddr/d' /etc/hosts\r"
+	#新增主机名
+	send "echo '$ipaddr     $hostsname' >> /etc/hosts\r"
+    send "exit\r"
+	# expect eof : 退出远程登录
+    expect eof
+	# interact ：执行完成后保持交互状态，把控制权交给控制台（依然连接在远程终端上）
+	# interact
+EOF
+echo "完成主机名信息收集..."
+/usr/bin/expect <<-EOF
+    set timeout 10
+    spawn ssh-copy-id $USER@$COMMON_SERVER
+    expect {
+       "(yes/no)?" {
+         send "$ISSURE\r";
+    	 exp_continue
+       }
+       "password:" {
+         send "$PASSWORD\r";
+    	 exp_continue
+       }
+    }
+    # interact
+EOF
+echo "完成主机公钥信息收集..."
+#暂停，等待所有服务执行完毕，沉睡2分钟
+sleep 120
+echo "进入睡眠等待信息同步"
+# 远程文件拷贝到本地
+/usr/bin/expect <<EOF
+    set timeout 10
+    spawn scp $USER@$COMMON_SERVER:/root/.ssh/authorized_keys /root/.ssh/authorized_keys
+    expect {
+       "(yes/no)?" {
+         send "$ISSURE\r";
+    	 exp_continue
+       }
+       "password:" {
+         send "$PASSWORD\r";
+    	 exp_continue
+       }
+    }
+    # interact
+EOF
+echo "完成主机公钥信息同步..."
+/usr/bin/expect <<EOF
+    set timeout 10
+    spawn scp $USER@$COMMON_SERVER:/etc/hosts /etc/hosts
+    expect {
+       "(yes/no)?" {
+         send "$ISSURE\r";
+    	 exp_continue
+       }
+       "password:" {
+         send "$PASSWORD\r";
+    	 exp_continue
+       }
+    }
+    # interact
+EOF
+echo "完成主机名信息同步..."
+chmod 700 /root/.ssh
+chmod 600 /root/.ssh/authorized_keys
+echo '_________Linux Server Opertioned!!!_________'
+sleep 10
+
+# 重启服务，更新所有配置
+reboot
