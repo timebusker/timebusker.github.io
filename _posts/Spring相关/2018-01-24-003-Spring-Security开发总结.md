@@ -12,6 +12,8 @@ tags:
 
 > [Spring Security技术栈开发企业级认证与授权-笔记](https://blog.csdn.net/mr_zhuqiang/article/details/81502354)
 
+> [SpringBoot集成Spring Security 5](https://blog.csdn.net/yuanlaijike/category_9283872.html)
+
 ### Spring Security 简介
 Spring Security为基于 Java EE 的企业软件应用程序提供全面的安全服务。特别是使用 Spring Framework 构建的项目，可以更好的使用 Spring Security 来加快构建的速度。   
 Spring Security 的出现有有很多原因，但主要是基于 Java EE 的 Servlet 规范或 EJB 规范的缺乏对企业应用的安全性方面的支持。而使用 Spring Security 克服了这些问题，并带来了数十个其他有用的可自定义的安全功能。   
