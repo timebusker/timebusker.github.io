@@ -125,7 +125,7 @@ public class ThreadLocalTest {
 > ThreadLocal.ThreadLocalMap inheritableThreadLocals = null; (可继承)
 
 `inheritableThreadLocals`之所以可继承，是因为在`Thread.init()`方法中做了实现，在线程初始化时完成线程的继承传递，子线程继承父子线程属性后，`直接赋值到子线程的threadLocals中`。
-![image](https://raw.githubusercontent.com/timebusker/timebusker.github.io/master/img/java-coding/5/1.png?raw=true) 
+![image](/img/java-coding/5/1.png) 
 
 ```
 public class InheritableThreadLocalsTest {
