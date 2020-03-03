@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      Oracle学习笔记（三）— Oracle-常用基本操作（装完数据库后连续操作）
-subtitle:   Oracle常用基本操作（装完数据库后连续操作）
 date:       2018-04-17
 author:     timebusker
 header-img: img/home-bg.jpg

@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      Oracle学习笔记（七）—Oracle-表管理
-subtitle:   表管理
 date:       2018-04-23
 author:     timebusker
 header-img: img/home-bg.jpg

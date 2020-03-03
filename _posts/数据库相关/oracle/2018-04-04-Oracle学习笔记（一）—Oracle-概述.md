@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      Oracle学习笔记（一）—Oracle-概述
-subtitle:   Oracle概述
 date:       2018-04-04
 author:     timebusker
 header-img: img/home-bg.jpg

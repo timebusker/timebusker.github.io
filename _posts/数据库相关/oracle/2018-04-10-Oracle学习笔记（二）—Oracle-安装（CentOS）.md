@@ -1,13 +1,13 @@
 ---
-author: timebusker
+layout:     post
+title:      Oracle学习笔记（二）— Oracle-安装（CentOS）
+date:       2018-04-17
+author:     timebusker
+header-img: img/home-bg.jpg
+header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
-date: 2018-04-10 00:00
-layout: post
-status: public
-subtitle: 'CentOS-6下安装Oracle 11G R2'
 tags:
-  - Oracle
-title: 'Oracle学习笔记（二）— Oracle-安装（CentOS）'
+    - Oracle
 ---
 
 > 要修改OS系统标识（Oracle默认不支持CentOS系统安装，但是CentOS其实就是 Red Hat）
