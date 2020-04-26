@@ -115,7 +115,7 @@ netstat -tlunp | grep ntp
 #### [BLOG](http://blog.sina.com.cn/s/blog_bf9b14b20102x19k.html)
 
 #### 问题一：ntpd dead but pid file exists(NTP自动退出问题排查)  
-![image](https://raw.githubusercontent.com/timebusker/timebusker.github.io/master/img/liunx/practice/1.png?raw=true)   
+![image](/img/liunx/practice/1.png?raw=true)   
 默认情况下如果ntp本地时间与上级ntp时间差超过1000s，那么ntp进程就会退出并在系统日志文件中记录。    
 ```
 # 解决办法：使用tinker命令调整该阈值,在配置文件/etc/ntp.conf增加以下内容
