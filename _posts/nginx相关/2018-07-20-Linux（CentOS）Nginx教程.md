@@ -12,7 +12,7 @@ tags:
 
 <p align="center">
   <a href="http://nginx.org/">
-    <img width="500" height="50" src="https://raw.githubusercontent.com/timebusker/timebusker.github.io/master/img/nginx/nginx.svg?sanitize=true" />
+    <img width="500" height="50" src="/img/nginx/nginx.svg?sanitize=true" />
   </a>
 </p>
 

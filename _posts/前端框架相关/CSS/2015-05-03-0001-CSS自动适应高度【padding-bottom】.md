@@ -77,12 +77,12 @@ div{width:20vw;height:20vw;/*20vw为viewport width的20%*/}
 
 element就变成了一个宽度50%，高度为0（但是他有50%width的padding-bottom）的正方形了，效果如下图灰白色的div
 
-![image](https://raw.githubusercontent.com/timebusker/timebusker.github.io/master/img/css/css-padding.jpg?raw=true)  
+![image](/img/css/css-padding.jpg)  
 
 这个时候可能有人要问了，这个div的高度为0，那如果我要在element里放置元素呢，那岂不是overflow了，这里就要提到overflow属性了，它的计算是包括div的content和padding的，也就是说，
 原来你的div可能是个{width：50px;height:50px;padding:0}的div，现在变成{width:50px;height:0;padding-bottom:50px;}的div了，尺寸还是一样的，通过指定这个div的子元素的定位，一样可以正常显示
 
-![image](https://raw.githubusercontent.com/timebusker/timebusker.github.io/master/img/css/css-padding1.jpg?raw=true)  
+![image](/img/css/css-padding1.jpg)  
 
 #### 参考
 [【文章】](http://zihua.li/2013/12/keep-height-relevant-to-width-using-css/)

@@ -31,8 +31,8 @@ yum remove mysql-libs.x86_64
 #### 离线安装  
 - 下载离线安装包   
 额外需要使用的依赖包还有：`libaio.x86_64`、`openssl.x86_64`,需要检查是否已经安装。    
-![image](https://raw.githubusercontent.com/timebusker/timebusker.github.io/master/img/mysql/1/1.png?raw=true)   
-![image](https://raw.githubusercontent.com/timebusker/timebusker.github.io/master/img/mysql/1/2.png?raw=true)  
+![image](/img/mysql/1/1.png)   
+![image](/img/mysql/1/2.png)  
 
 ```
 # 顺序安装一下依赖包    
