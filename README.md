@@ -14,7 +14,7 @@
 #### [内容包含：编程、数据库、大数据...](http://timebusker.github.io)  
 
 -----------------
-
+<!-- 
 <h2 align="center">:heart::heart::heart:如果觉得我的文章或者代码对您有帮助,可以请我喝杯咖啡哦:heart::heart::heart:</h2>
 <div  align="center">    
   <img src="http://www.timebusker.top/mine/wxpay.png" width = "200" height = "200" alt="WXPAY" align=center />
@@ -22,5 +22,5 @@
   <img src="http://www.timebusker.top/mine/alipay.png" width = "200" height = "200" alt="ALIPAY" align=center />
 </div>  
 <h2 align="center">:smile::smile::smile:您的支持将鼓励我继续创作...谢谢!:smile::smile::smile:</h2>
-
+ -->
 -----------------
