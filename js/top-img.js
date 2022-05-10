@@ -1,6 +1,6 @@
 // 懒加载
 $(document).ready(function(){
-     var sqid = Math.floor((Math.random()*40)+1);
+     var sqid = Math.floor((Math.random()*130)+1);
      console.log(sqid);
 	 $(".intro-header").attr({
 	     "position" : "relative",
