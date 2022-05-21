@@ -37,7 +37,7 @@ $.preLoadImages();
 <div class="container">
 	<div class="row">
         {% if site.sidebar == false %}
-<!-- NO SIDEBAR -->
+    <!-- NO SIDEBAR -->
     <!-- PostList Container -->
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 postlist-container">
                 {{ content }}
@@ -68,7 +68,7 @@ $.preLoadImages();
                     {% for friend in site.friends %}
                         <li><a href="{{friend.href}}">{{friend.title}}</a></li>
                     {% endfor %}
-                </ul>
+                </ul> 
                 {% endif %}
             </div>
         {% else %}
