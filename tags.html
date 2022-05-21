@@ -60,12 +60,11 @@ $.preLoadImages();
 			-->
 			<!-- -->
 			<div id='tag_cloud' class="tags tags-sup js-tags">
-			    <!--
+			    <!-- -->
 				<a class="tag-button--all" data-encode="">
 					Show All
 					<sup>{{site.posts.size}}</sup>
 				</a>
-                -->
 				{% capture tags %}
 				{% for tag in site.tags %}
 				<a href="#{{ tag[0] }}" class="tag-button" title="{{ tag[0]}}" rel="{{ tag[1].size }}">
@@ -75,12 +74,6 @@ $.preLoadImages();
 				{% endcapture %}
                 {{ tags | split:'</a>' | sort | join:'</a>' }}
 			</div>
-            
-            <!--<blockquote class="tag-comments">
-                标签命名规范：
-                    <li>行业观察、职位、公司优先使用中文</li>
-                    <li>外国产品、术语优先使用英文</li>
-            </blockquote>-->
 
             <!-- 标签列表 -->
 			{% for tag in site.tags %}
@@ -100,7 +93,7 @@ $.preLoadImages();
 				        </h2>
 				        {% if post.subtitle %}
 				        <h3 class="post-subtitle">
-				            {{ post.subtitle }}
+				            {{ post.subtitle }}  &emsp;  {{ post.date | date: "%B %-d, %Y" }}
 				        </h3>
 				        {% endif %}
 				    </a>
