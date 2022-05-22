@@ -6,23 +6,20 @@ description: "无缘无故的快乐才是真正的快乐，任何有原因的快
 {% for post in site.posts %} {% if post.top == true and post.hidden != true %}
 <div class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl }}">
-    <h2 class="post-title">[置顶] {{ post.title }}</h2>
+    <h2 class="post-title" style="color:#7e0000">[置顶] {{ post.title }}</h2>
     {% if post.subtitle %}
     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
     {% endif %}
     <div class="post-content-preview">
-      {% if post.lang == 'en' %} {{ post.content | strip_html | truncate:300 }}
-      {% else %} {{ post.content | strip_html | truncate:200 }} {% endif %}
+      {% if post.lang == 'en' %} {{ post.content | strip_html | truncate:150 }}{% else %} {{ post.content | strip_html | truncate:150 }} {% endif %}
     </div>
   </a>
   <p class="post-meta">
-    Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{%
-    endif %} on {{ post.date | date: "%F" }}
+    Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{%endif %} on {{ post.date | date: "%F" }}
   </p>
 </div>
 <hr />
-{% endif %} {% endfor %} {% for post in paginator.posts %} {% if post.top !=
-true and post.hidden != true %}
+{% endif %} {% endfor %} {% for post in paginator.posts %} {% if post.top != true and post.hidden != true %}
 <div class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl }}">
     <h2 class="post-title">{{ post.title }}</h2>
@@ -30,13 +27,12 @@ true and post.hidden != true %}
     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
     {% endif %}
     <div class="post-content-preview">
-      {% if post.lang == 'en' %} {{ post.content | strip_html | truncate:300 }}
-      {% else %} {{ post.content | strip_html | truncate:200 }} {% endif %}
+      {% if post.lang == 'en' %} {{ post.content | strip_html | truncate:150 }}
+      {% else %} {{ post.content | strip_html | truncate:150 }} {% endif %}
     </div>
   </a>
   <p class="post-meta">
-    Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{%
-    endif %} on <bold>{{ post.date | date: "%F" }}</bold>
+    Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{%endif %} on <bold>{{ post.date | date: "%F" }}</bold>
   </p>
 </div>
 <hr />
@@ -48,16 +44,12 @@ true and post.hidden != true %}
   {% if paginator.previous_page %}
   <li class="previous">
     <a
-      href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
-      >&larr; Newer Posts</a
-    >
+      href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; 下一页</a>
   </li>
   {% endif %} {% if paginator.next_page %}
   <li class="next">
     <a
-      href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
-      >Older Posts &rarr;</a
-    >
+      href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">上一页 &rarr;</a>
   </li>
   {% endif %}
 </ul>
