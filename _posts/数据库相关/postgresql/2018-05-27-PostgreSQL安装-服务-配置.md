@@ -34,9 +34,9 @@ chkconfig postgresql-10 off/on
 
 echo "#####################################################################"
 echo "#                                                                   #"
-echo "# 本服务器所有服务需要手工启动，已安装的服务及启动指令如下：        #"
+echo "# 本服务器所有服务需要手工启动，已安装的服务及启动指令如下：             #"
 echo "#                                                                   #"
-echo "# PostgreSQL数据库服务：    service postgresql-10 start             #"
+echo "# PostgreSQL数据库服务：    service postgresql-10 start              #"
 echo "#                                                                   #"
 echo "#                                                                   #"
 echo "#                                                                   #"

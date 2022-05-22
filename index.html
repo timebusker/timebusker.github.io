@@ -6,7 +6,7 @@ description: "无缘无故的快乐才是真正的快乐，任何有原因的快
 {% for post in site.posts %} {% if post.top == true and post.hidden != true %}
 <div class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl }}">
-    <h2 class="post-title" style="color:#7e0000">[置顶] {{ post.title }}</h2>
+    <h2 class="post-title" style="color:##9d1739">[置顶] {{ post.title }}</h2>
     {% if post.subtitle %}
     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
     {% endif %}
@@ -27,8 +27,7 @@ description: "无缘无故的快乐才是真正的快乐，任何有原因的快
     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
     {% endif %}
     <div class="post-content-preview">
-      {% if post.lang == 'en' %} {{ post.content | strip_html | truncate:150 }}
-      {% else %} {{ post.content | strip_html | truncate:150 }} {% endif %}
+      {% if post.lang == 'en' %} {{ post.content | strip_html | truncate:150 }}{% else %} {{ post.content | strip_html | truncate:150 }} {% endif %}
     </div>
   </a>
   <p class="post-meta">
@@ -43,13 +42,11 @@ description: "无缘无故的快乐才是真正的快乐，任何有原因的快
 <ul class="pager">
   {% if paginator.previous_page %}
   <li class="previous">
-    <a
-      href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; 下一页</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; 下一页</a>
   </li>
   {% endif %} {% if paginator.next_page %}
   <li class="next">
-    <a
-      href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">上一页 &rarr;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">上一页 &rarr;</a>
   </li>
   {% endif %}
 </ul>
