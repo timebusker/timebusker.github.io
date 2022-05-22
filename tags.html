@@ -51,14 +51,6 @@ $.preLoadImages();
 <div class="container">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <!-- 标签云 
-			<div id='tag_cloud' class="tags">
-				{% for tag in site.tags %}
-				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}<sup>{{tag[1].size}}</sup></a>
-				{% endfor %}
-			</div>
-			-->
-			<!-- -->
 			<div id='tag_cloud' class="tags tags-sup js-tags">
 			    <!-- -->
 				<a class="tag-button--all" data-encode="" style="background-color:#9d1739">
@@ -82,10 +74,6 @@ $.preLoadImages();
                     <span class="tag-text">{{ tag[0] }}</span>
                 </span>
 				{% for post in tag[1] %}
-				  <!-- <li class="listing-item">
-				  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-				  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-				  </li> -->
 				 <div class="post-preview">
 				    <a href="{{ post.url | prepend: site.baseurl }}">
 				        <h2 class="post-title">
