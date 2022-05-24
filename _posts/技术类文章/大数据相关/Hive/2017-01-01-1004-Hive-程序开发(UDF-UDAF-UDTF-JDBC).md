@@ -4,7 +4,6 @@ title:      Hive-程序开发（UDF/UDAF/UDTF/JDBC）
 date:       2017-12-14
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Hive

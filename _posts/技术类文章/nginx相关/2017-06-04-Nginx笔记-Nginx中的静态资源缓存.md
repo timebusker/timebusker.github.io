@@ -4,7 +4,6 @@ title:      Nginx中的静态资源缓存
 date:       2017-06-04
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Nginx

@@ -3,7 +3,7 @@ layout:     post
 title:      利用 commit 理解镜像构成
 date:       2019-07-29
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Docker

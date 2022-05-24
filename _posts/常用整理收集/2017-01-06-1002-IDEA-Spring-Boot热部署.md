@@ -3,7 +3,7 @@ layout:     post
 title:      IDEA-Spring-Boot热部署
 date:       2018-08-13
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - 开发工具

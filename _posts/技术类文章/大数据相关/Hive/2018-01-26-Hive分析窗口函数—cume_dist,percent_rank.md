@@ -4,7 +4,6 @@ title:      Hive分析窗口函数—cume_dist,percent_rank
 date:       2018-02-14
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Hive

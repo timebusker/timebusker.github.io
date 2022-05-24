@@ -3,7 +3,7 @@ layout:     post
 title:      Linux（CentOS）服务开机启动
 date:       2018-07-23
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Linux

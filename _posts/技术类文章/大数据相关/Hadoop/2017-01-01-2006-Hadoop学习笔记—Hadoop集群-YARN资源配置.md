@@ -4,7 +4,6 @@ title:      Hadoop集群-YARN资源配置
 date:       2018-12-15
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Hadoop

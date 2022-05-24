@@ -4,7 +4,6 @@ title:      数据采集（flume）-Flume高可用、监控及自定义拦截器
 date:       2018-03-07
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Flume

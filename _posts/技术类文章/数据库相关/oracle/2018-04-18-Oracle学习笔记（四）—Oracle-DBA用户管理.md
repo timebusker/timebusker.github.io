@@ -4,7 +4,6 @@ title:      Oracle学习笔记（四）—Oracle DBA用户管理
 date:       2018-04-18
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Oracle

@@ -4,7 +4,6 @@ title:      管理Spark Streaming消费Kafka的偏移量
 date:       2019-03-12
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Spark-Streaming

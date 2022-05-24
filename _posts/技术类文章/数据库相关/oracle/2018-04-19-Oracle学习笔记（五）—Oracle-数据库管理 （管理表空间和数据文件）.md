@@ -4,7 +4,6 @@ title:      Oracle学习笔记（五）—Oracle-数据库管理 （管理表空
 date:       2018-04-19
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Oracle

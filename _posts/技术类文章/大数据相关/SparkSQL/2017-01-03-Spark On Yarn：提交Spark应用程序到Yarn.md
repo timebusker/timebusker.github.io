@@ -4,7 +4,6 @@ title:      Spark On Yarn：提交Spark应用程序到Yarn
 date:       2018-07-19
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Spark

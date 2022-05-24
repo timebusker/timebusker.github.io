@@ -4,7 +4,6 @@ title:      Spark笔记(十六)-SparkCore的调优之JVM-GC垃圾收集器
 date:       2018-06-25
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Spark

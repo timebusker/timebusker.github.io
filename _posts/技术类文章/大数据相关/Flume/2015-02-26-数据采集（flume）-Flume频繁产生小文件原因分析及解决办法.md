@@ -4,7 +4,6 @@ title:      数据采集（flume）-Flume频繁产生小文件原因分析及解
 date:       2018-03-01
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Flume

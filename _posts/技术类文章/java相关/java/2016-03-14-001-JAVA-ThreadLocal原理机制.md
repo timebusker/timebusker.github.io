@@ -3,7 +3,7 @@ layout:     post
 title:      JAVA-多线程之隔离技术ThreadLocal源码详解
 date:       2016-03-14
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - JAVA

@@ -3,7 +3,7 @@ layout:     post
 title:      Linux（CentOS）新增服务器常规操作
 date:       2018-09-23
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Linux

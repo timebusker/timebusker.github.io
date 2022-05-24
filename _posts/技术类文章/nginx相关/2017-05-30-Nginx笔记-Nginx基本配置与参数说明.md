@@ -4,7 +4,6 @@ title:      Nginx基本配置与参数说明
 date:       2017-05-30
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Nginx

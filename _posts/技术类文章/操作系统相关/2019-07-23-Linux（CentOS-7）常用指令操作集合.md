@@ -3,7 +3,7 @@ layout:     post
 title:      Linux（CentOS-7）常用指令操作集合
 date:       2019-07-23
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Linux

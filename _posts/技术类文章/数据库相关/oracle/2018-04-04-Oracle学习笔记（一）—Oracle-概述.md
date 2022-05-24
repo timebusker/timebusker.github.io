@@ -4,7 +4,6 @@ title:      Oracle学习笔记（一）—Oracle-概述
 date:       2018-04-04
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Oracle

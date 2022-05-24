@@ -4,7 +4,6 @@ title:      Nginx安装及服务配置
 date:       2017-05-29
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Nginx

@@ -5,7 +5,6 @@ subtitle:
 date:       2017-03-31
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - ZooKeeper专题

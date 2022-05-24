@@ -5,7 +5,6 @@ subtitle:   逻辑备份与恢复
 date:       2018-04-24
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Oracle

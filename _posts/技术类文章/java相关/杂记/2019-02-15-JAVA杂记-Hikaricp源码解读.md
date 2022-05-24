@@ -3,7 +3,7 @@ layout:     post
 title:      HikariCP源码解读
 date:       2019-02-15
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - JAVA杂记

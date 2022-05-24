@@ -4,7 +4,6 @@ title:      Oracle学习笔记（二）— Oracle-安装（CentOS）
 date:       2018-04-17
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Oracle

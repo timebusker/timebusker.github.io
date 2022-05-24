@@ -4,7 +4,6 @@ title:      CSS自动适应高度【padding-bottom】
 date:       2015-05-12
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - CSS

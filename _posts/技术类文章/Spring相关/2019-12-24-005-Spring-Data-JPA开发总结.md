@@ -4,7 +4,6 @@ title:      Spring-Data-JPA开发总结
 date:       2019-12-24
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Spring相关

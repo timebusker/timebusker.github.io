@@ -3,7 +3,7 @@ layout:     post
 title:      Java并发编程实战-Volatile关键字解析
 date:       2017-01-04
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Java并发编程实战

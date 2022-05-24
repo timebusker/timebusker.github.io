@@ -3,7 +3,7 @@ layout:     post
 title:      Linux利用IOS镜像文件搭建本地yum源服务器
 date:       2018-03-17
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Linux

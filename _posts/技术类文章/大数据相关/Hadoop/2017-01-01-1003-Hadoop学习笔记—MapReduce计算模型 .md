@@ -5,7 +5,6 @@ title:      Hadoop学习笔记 — MapReduce计算模型
 date:       2018-06-03
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Hadoop  
@@ -257,7 +256,6 @@ title:      Hadoop学习笔记 — MapReduce计算模型
 date:       2018-06-03
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Hadoop  

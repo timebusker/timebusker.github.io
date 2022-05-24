@@ -3,7 +3,7 @@ layout:     post
 title:      Kafka在zookeeper中的存储
 date:       2019-06-14
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Kafka

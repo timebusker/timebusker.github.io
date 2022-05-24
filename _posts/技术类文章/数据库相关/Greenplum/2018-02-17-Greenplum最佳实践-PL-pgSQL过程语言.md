@@ -4,7 +4,6 @@ title:      Greenplum最佳实践-PL-pgSQL过程语言(存储过程)
 date:       2019-02-17
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Greenplum

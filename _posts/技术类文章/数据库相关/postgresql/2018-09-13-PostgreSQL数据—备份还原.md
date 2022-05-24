@@ -4,7 +4,6 @@ title:      PostgreSQL数据—备份还原
 date:       2018-09-13
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - PostgreSQL

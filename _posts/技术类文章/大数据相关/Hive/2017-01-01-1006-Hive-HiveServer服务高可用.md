@@ -4,7 +4,6 @@ title:      Hive-HiveServer服务高可用
 date:       2017-12-15
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Hive

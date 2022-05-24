@@ -3,7 +3,7 @@ layout:     post
 title:      Linux学习笔记(一)-CentOS系统安装
 date:       2017-01-01
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Linux

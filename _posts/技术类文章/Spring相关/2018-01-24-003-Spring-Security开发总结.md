@@ -4,7 +4,6 @@ title:      Spring-Security开发总结
 date:       2018-07-04
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Spring相关

@@ -4,7 +4,6 @@ title:      SparkSQL整合Hive并支持窗口分析函数
 date:       2018-07-18
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - SparkSQL

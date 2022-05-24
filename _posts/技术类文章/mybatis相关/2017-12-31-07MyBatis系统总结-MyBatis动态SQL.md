@@ -3,7 +3,7 @@ layout:     post
 title:      MyBatis系统总结—MyBatis动态SQL
 date:       2017-12-26
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - MyBatis

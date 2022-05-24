@@ -4,7 +4,6 @@ title:      MySQL（四）—MySQL常用操作
 date:       2019-09-14
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - MySQL

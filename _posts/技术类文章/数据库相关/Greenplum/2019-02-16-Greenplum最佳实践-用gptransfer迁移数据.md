@@ -4,7 +4,6 @@ title:      Greenplum最佳实践-用gptransfer迁移数据
 date:       2019-02-16
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Greenplum

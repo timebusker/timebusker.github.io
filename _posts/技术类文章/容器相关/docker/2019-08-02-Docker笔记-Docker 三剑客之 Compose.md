@@ -3,7 +3,7 @@ layout:     post
 title:      Docker 三剑客之 Compose
 date:       2019-08-02
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Docker

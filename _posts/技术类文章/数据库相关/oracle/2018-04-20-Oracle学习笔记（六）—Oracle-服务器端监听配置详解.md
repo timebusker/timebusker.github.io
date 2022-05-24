@@ -4,7 +4,6 @@ title:      Oracle学习笔记（六）—Oracle-服务器端监听配置详解
 date:       2018-04-20
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Oracle

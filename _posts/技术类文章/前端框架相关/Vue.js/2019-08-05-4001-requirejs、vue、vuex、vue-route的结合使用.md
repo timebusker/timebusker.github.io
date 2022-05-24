@@ -4,7 +4,6 @@ title:      requirejs、vue、vuex、vue-route的结合使用
 date:       2019-08-05
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Vue.js

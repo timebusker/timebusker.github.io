@@ -4,7 +4,6 @@ title:      三大主流软件负载均衡器对比
 date:       2017-05-28
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Nginx

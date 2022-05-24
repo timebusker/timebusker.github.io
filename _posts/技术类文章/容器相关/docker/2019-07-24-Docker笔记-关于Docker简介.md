@@ -3,7 +3,7 @@ layout:     post
 title:      关于Docker简介
 date:       2019-07-24
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Docker

@@ -4,7 +4,6 @@ title:      Spark Streaming整合Kafka两种连接方式
 date:       2019-03-13
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Spark-Streaming

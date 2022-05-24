@@ -3,7 +3,7 @@ layout:     post
 title:      Linux（CentOS）集群之间实现免密登录
 date:       2018-03-15
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Linux

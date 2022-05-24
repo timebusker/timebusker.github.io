@@ -4,7 +4,6 @@ title:      Oracle学习笔记（三）— Oracle-常用基本操作（装完数
 date:       2018-04-17
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Oracle

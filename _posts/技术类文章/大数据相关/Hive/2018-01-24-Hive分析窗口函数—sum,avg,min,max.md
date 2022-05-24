@@ -4,7 +4,6 @@ title:      Hive分析窗口函数—sum,avg,min,max
 date:       2018-02-12
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Hive

@@ -4,7 +4,6 @@ title:      Spark笔记(五)-Spark之RDD-算子API使用（一）
 date:       2018-06-25
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Spark

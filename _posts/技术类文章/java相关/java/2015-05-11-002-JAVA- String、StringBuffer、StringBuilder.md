@@ -3,7 +3,7 @@ layout:     post
 title:      JAVA- String、StringBuffer、StringBuilder
 date:       2015-05-11
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - JAVA

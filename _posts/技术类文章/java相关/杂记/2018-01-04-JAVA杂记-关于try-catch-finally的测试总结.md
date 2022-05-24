@@ -3,7 +3,7 @@ layout:     post
 title:      关于try-catch-finally的测试总结
 date:       2018-05-04
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - JAVA杂记

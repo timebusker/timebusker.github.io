@@ -4,7 +4,6 @@ title:      数据采集（flume）-Flume采集Oracle数据到HDFS、Hive、HBas
 date:       2018-04-02
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Flume

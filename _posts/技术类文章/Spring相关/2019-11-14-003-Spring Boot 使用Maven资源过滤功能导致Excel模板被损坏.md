@@ -4,7 +4,6 @@ title:      Spring Boot 使用Maven资源过滤功能导致Excel模板被损坏
 date:       2019-11-14
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Spring相关

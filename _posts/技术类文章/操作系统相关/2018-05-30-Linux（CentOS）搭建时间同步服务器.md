@@ -3,7 +3,7 @@ layout:     post
 title:      Linux（CentOS）搭建时间同步服务器
 date:       2018-05-30
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Linux

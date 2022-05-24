@@ -5,7 +5,6 @@ subtitle:   安装以及服务配置
 date:       2018-03-20
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - PostgreSQL

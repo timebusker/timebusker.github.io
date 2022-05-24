@@ -4,7 +4,6 @@ title:      Hadoop学习笔记 — Yarn公平调度器Fair Scheduler根据用户
 date:       2018-06-05
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Hadoop  

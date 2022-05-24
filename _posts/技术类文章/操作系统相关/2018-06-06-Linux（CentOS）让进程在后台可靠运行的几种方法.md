@@ -3,7 +3,7 @@ layout:     post
 title:      Linux（CentOS）让进程在后台可靠运行的几种方法
 date:       2018-06-06 
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Linux

@@ -4,7 +4,6 @@ title:      Hive，Hive on Spark和SparkSQL区别
 date:       2019-12-15
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Hive

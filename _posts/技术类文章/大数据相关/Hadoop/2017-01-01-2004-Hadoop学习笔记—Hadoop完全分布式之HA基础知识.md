@@ -4,7 +4,6 @@ title:      Hadoop学习笔记 — Hadoop完全分布式之HA基础知识
 date:       2018-05-18
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Hadoop  

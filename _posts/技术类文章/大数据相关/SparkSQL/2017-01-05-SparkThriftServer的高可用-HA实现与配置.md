@@ -4,7 +4,6 @@ title:      SparkThriftServer的高可用-HA实现与配置
 date:       2018-07-19
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - SparkSQL

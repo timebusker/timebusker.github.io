@@ -4,7 +4,6 @@ title:      Hadoop学习笔记 — Hadoop集群-HA-服务搭建
 date:       2018-05-19
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Hadoop  

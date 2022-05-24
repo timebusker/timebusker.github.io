@@ -4,7 +4,6 @@ title:      关于Spring Boot微服务加载JAR内静态资源文件
 date:       2018-01-24
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Spring相关

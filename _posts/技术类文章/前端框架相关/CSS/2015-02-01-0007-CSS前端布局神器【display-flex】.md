@@ -4,7 +4,6 @@ title:      CSS前端布局神器【display-flex】
 date:       2015-01-23
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - CSS

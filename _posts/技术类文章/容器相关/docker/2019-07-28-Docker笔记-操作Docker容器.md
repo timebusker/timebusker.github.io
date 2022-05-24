@@ -3,7 +3,7 @@ layout:     post
 title:      操作Docker容器
 date:       2019-07-28
 author:     timebusker
-header-img: img/taylorswift/post-bg-swift.jpg
+header-img: img/home-bg.jpg
 catalog: true
 tags:
     - Docker

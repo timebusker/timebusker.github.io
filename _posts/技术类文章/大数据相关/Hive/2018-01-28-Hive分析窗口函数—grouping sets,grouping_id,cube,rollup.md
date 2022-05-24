@@ -4,7 +4,6 @@ title:      Hive分析窗口函数—grouping sets,grouping_id,cube,rollup
 date:       2018-02-16
 author:     timebusker
 header-img: img/home-bg.jpg
-header-img: img/taylorswift/post-bg-swift.jpg
 catalog: true
 tags:
     - Hive
