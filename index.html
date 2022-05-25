@@ -6,9 +6,9 @@ description: "无缘无故的快乐才是真正的快乐，任何有原因的快
 {% for post in site.posts %} {% if post.top == true and post.hidden != true %}
 <div class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl }}">
-    <h2 class="post-title" style="color:#9d1739">[置顶] {{ post.title }}</h2>
+    <h3 class="post-title" style="color:#9d1739">[置顶] {{ post.title }}</h3>
     {% if post.subtitle %}
-    <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+    <h4 class="post-subtitle">{{ post.subtitle }}</h4>
     {% endif %}
     <div class="post-content-preview">
       {% if post.lang == 'en' %} {{ post.content | strip_html | truncate:150 }}{% else %} {{ post.content | strip_html | truncate:150 }} {% endif %}
@@ -22,9 +22,9 @@ description: "无缘无故的快乐才是真正的快乐，任何有原因的快
 {% endif %} {% endfor %} {% for post in paginator.posts %} {% if post.top != true and post.hidden != true %}
 <div class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl }}">
-    <h2 class="post-title">{{ post.title }}</h2>
+    <h3 class="post-title">{{ post.title }}</h3>
     {% if post.subtitle %}
-    <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+    <h4 class="post-subtitle">{{ post.subtitle }}</h4>
     {% endif %}
     <div class="post-content-preview">
       {% if post.lang == 'en' %} {{ post.content | strip_html | truncate:150 }}{% else %} {{ post.content | strip_html | truncate:150 }} {% endif %}
