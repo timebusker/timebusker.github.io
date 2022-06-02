@@ -2,11 +2,11 @@
 # @Author: HUAWEI
 # @Date:   2022-04-24 20:37:53
 # @Last Modified by:   HUAWEI
-# @Last Modified time: 2022-04-24 20:52:54
+# @Last Modified time: 2022-06-02 17:55:42
 
 import os
 import random
-path='Z:\\timebusker\\timebusker.github.io\\img\\top-photo'       
+path='E:\\timebusker\\timebusker.github.io\\img\\top-photo'       
 #获取该目录下所有文件，存入列表中
 lists=os.listdir(path)
 for file in lists:
