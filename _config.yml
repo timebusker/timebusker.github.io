@@ -4,14 +4,15 @@ SEOTitle: Timebusker BY Blog
 header-img: img/post-bg-desk.jpg
 email: timebusker@gmail.com
 description: "Every failure is leading towards success."
-keyword: "BY Blog, timebusker的博客, timebusker, Java, web, spring, spring-cloud, spring-boot, dubbo, iOS, Apple, iPhone"
+# keyword: "BY Blog, timebusker的博客, timebusker, Java, web, spring, spring-cloud, spring-boot, dubbo, iOS, Apple, iPhone"
+keyword: "timebusker的博客, timebusker"
 url: "http://timebusker.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/timebusker/" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "无缘无故的快乐才是真正的快乐，任何有原因的快乐都是有局限性的!"
+sidebar-about-description: "思维要走到多数人的前面，甚至是对立面"
 sidebar-avatar: /img/about-mine-gentle.gif     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -79,14 +80,14 @@ ba_track_id: 1af286c4d389d9e668bb250fc25ec135
 
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
+featured-tags: false                    # 是否使用首页标签
 featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
-service-worker: true
+service-worker: false
 
 
 
