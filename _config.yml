@@ -93,7 +93,7 @@ service-worker: false
 
 
 # Friends
-friends: [
+#friends: [
 #    {
 #        title: "简书·BY",
 #        href: "http://www.jianshu.com/"
@@ -104,6 +104,6 @@ friends: [
 #        title: "Apple Developer",
 #        href: "https://developer.apple.com/"
 #    }
-]
+#]
 
 theme: jekyll-theme-minimal
