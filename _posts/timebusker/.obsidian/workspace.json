@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/2024-09-01- 股票操作复盘总结.md",
+                "file": "每日复盘/2024-09-28-今天是一个开始.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/2024-09-01- 股票操作复盘总结.md",
+                "file": "每日复盘/2024-09-28-今天是一个开始.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/2024-09-01- 股票操作复盘总结.md",
+                "file": "每日复盘/2024-09-28-今天是一个开始.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/2024-09-01- 股票操作复盘总结.md"
+                "file": "每日复盘/2024-09-28-今天是一个开始.md"
               }
             }
           },
@@ -160,10 +160,10 @@
   },
   "active": "9066a966381087bd",
   "lastOpenFiles": [
+    "模板/博客模板.md",
+    "知识库/2024-09-01- 股票操作复盘总结.md",
     "知识库/2024-09-01-分时看盘绝技之黄白线劈叉.md",
     "每日复盘/2024-09-28-今天是一个开始.md",
-    "知识库/2024-09-01- 股票操作复盘总结.md",
-    "模板/博客模板.md",
     "每日复盘/2099-12-30.md",
     "每日复盘/2024-09-28 复盘日志.md",
     "Z笔记附件/().md",
