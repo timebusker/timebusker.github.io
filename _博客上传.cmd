@@ -4,7 +4,7 @@ color 0a
 :: call 0-rename-jpg.bat
 :: cd ..
 
-set var="提交博客"
+set var="submit^blog^document"
 set d=%date:~0,10%
 set t=%time:~0,8%
 git add .
