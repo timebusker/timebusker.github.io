@@ -16,13 +16,13 @@ tags:
 ### Flume高可用
 在完成单点的Flume NG搭建后，下面我们搭建一个高可用的Flume NG集群，架构图如下所示：
 
-![Flume高可用](/img/flume/11.png)
+![Flume高可用](img/older/flume/11.png)
 
 主要能实现高可用部分是:`Flume聚合各个agent采集的数据，统一写入到HDFS/Kafka/Hbase等目标库`。
 
 - 规划部署
 
-![Flume高可用](/img/flume/12.png)
+![Flume高可用](img/older/flume/12.png)
 
 - 配置文件
 

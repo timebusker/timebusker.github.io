@@ -19,7 +19,7 @@ tags:
 
 Hive从0.14开始，使用Zookeeper实现了HiveServer2的HA功能（ZooKeeper Service Discovery），Client端可以通过指定一个nameSpace来连接HiveServer2，而不是指定某一个host和port。
 
-![HiveServer服务高可用](/img/hive/4.png)
+![HiveServer服务高可用](img/older/hive/4.png)
 
 #### Hive配置
 > 假设你的Zookeeper已经安装好，并可用。

@@ -10,7 +10,7 @@ tags:
 ---
 
 #### JVM的结构图
-![SparkCore的调优之JVM调优配置](/img/spark/15/1.png)
+![SparkCore的调优之JVM调优配置](img/older/spark/15/1.png)
 
 JVM内存结构主要有三大块：`堆内存、方法区和栈`。
 
@@ -21,7 +21,7 @@ JVM内存结构主要有三大块：`堆内存、方法区和栈`。
 - `栈`又分为java虚拟机栈和本地方法栈主要用于方法的执行。
 
 > 参数配置内存区域：
-![SparkCore的调优之JVM调优配置](/img/spark/15/2.png)
+![SparkCore的调优之JVM调优配置](img/older/spark/15/2.png)
 
 - `-Xms`设置堆的最小空间大小。
 - `-Xmx`设置堆的最大空间大小。
@@ -36,7 +36,7 @@ JVM内存结构主要有三大块：`堆内存、方法区和栈`。
 `老年代空间大小=堆空间大小-年轻代大空间大小。`
 
 > JVM和系统调用之间的关系
-![SparkCore的调优之JVM调优配置](/img/spark/15/3.png)
+![SparkCore的调优之JVM调优配置](img/older/spark/15/3.png)
 
 `方法区和堆是所有线程共享的内存区域；而java栈、本地方法栈和程序员计数器是运行是线程私有的内存区域。`
 

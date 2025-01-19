@@ -22,13 +22,13 @@ host=localhost
 user=root
 password=timebusker
 ```  
-![image](/img/mysql/1/3.png)    
+![image](img/older/mysql/1/3.png)    
 
 #### 修改Linux下MySQL编码  
 ##### 查看mysql字符集 
 默认登录mysql之后可以通过SHOW VARIABLES语句查看系统变量及其值。    
 - 查看服务端编码`show variables like '%character%';` 
-![image](/img/mysql/1/4.png)    
+![image](img/older/mysql/1/4.png)    
 - 查看数据库编码，登陆切换到目标库，`show variables like 'character';`
 
 - 查看表字段编码`show full columns from tb_test;`

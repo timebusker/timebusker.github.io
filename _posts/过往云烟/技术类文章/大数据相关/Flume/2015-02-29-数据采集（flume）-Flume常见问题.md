@@ -27,7 +27,7 @@ tags:
 	- 一旦配置文件变更，则重新得到SinkRunner, SourceRunner以及channel的配置， 包装成MaterialedConfiguration,通过google guava的eventbus 推送配置变更给Application ,Application启动一个LifeCycleSupervisor,由它来负责监控
 	- SourceRunner ,SinkRunner,Channel的运行情况 。 SourceRunner ,SinkRunner ,Channel都继承或实现了LifeCycleAware接口，LifeCycleSupervisor通过定时检查这些组件的期望状态是否和当前状态一致， 如果不一致则调用期望状态对应的方法，
 	
-![数据采集（flume）](/img/flume/13.jpg)
+![数据采集（flume）](img/older/flume/13.jpg)
 
 #### flume配置文件
 
@@ -53,7 +53,7 @@ EventDrivenSource  有代表性的是thrift source  , 在本地启动java nio se
 
 #### 运作原理
 
-![数据采集（flume）](/img/flume/14.jpg)
+![数据采集（flume）](img/older/flume/14.jpg)
 
 PollingSourceRunner通过线程启动定时任务 ，间隔一段时间调用kafkasource 从kafka broker 拉取日志，拉完以后，进入一个ChannelProcessor,这个通道处理器先通过一个过滤器链对event进行过滤 ，
 过滤以后，通过一个ChannelSelector通道选择器，选择evnet要投递的Channel , 然后启动Channel 下的一个事务 （注意，这个事务是用ThreadLocal维持的，也就是说一个线程对应了一个事务），

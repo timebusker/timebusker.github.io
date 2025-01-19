@@ -30,7 +30,7 @@ tags:
 - 将`集群中每一台机器`的公钥拷贝到集群中的##Master机##的`/root/.ssh/`目录下  
   操作指令：`ssh-copy-id root@[IP/主机名]` 
   合并后的数据文件如下：  
-  ![image](/img/20180328-1/1.png)  
+  ![image](img/older/20180328-1/1.png)  
 
 #### [把authorized_keys文件拷贝到节点](#) 
 - 把authorized_keys文件拷贝到节点的`/root/.ssh/`目录下  

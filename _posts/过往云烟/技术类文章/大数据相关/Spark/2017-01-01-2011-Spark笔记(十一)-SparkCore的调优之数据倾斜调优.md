@@ -22,7 +22,7 @@ tags:
 
 因此出现数据倾斜的时候，Spark作业看起来会运行得非常缓慢，甚至可能因为某个task处理的数据量过大导致内存溢出。
 
-![数据倾斜发生的原理](/img/spark/11/1.png)
+![数据倾斜发生的原理](img/older/spark/11/1.png)
 
 #### 如何定位导致数据倾斜的代码
 `数据倾斜只会发生在shuffle过程中`。常用的并且可能会触发shuffle操作的算子：`distinct`、`groupByKey`、`reduceByKey`、`aggregateByKey`、`join`、`cogroup`、`repartition`等。
@@ -63,7 +63,7 @@ tags:
 **方案适用场景**：如果我们必须要对数据倾斜迎难而上，那么建议优先使用这种方案，因为这是处理数据倾斜最简单的一种方案。
 
 **方案实现思路**：在对RDD执行shuffle算子时，给shuffle算子传入一个参数，比如reduceByKey(1000)，该参数就设置了这个shuffle算子执行时shuffle read task的数量。对于Spark SQL中的shuffle类语句，比如group by、join等，需要设置一个参数，即spark.sql.shuffle.partitions，该参数代表了shuffle read task的并行度，该值默认是200，对于很多场景来说都有点过小。
-![数据倾斜发生的原理](/img/spark/11/2.png)
+![数据倾斜发生的原理](img/older/spark/11/2.png)
 
 **方案实现原理**：增加shuffle read task的数量，可以让原本分配给一个task的多个key分配给多个task，从而让每个task处理比原来更少的数据。举例来说，如果原本有5个key，每个key对应10条数据，这5个key都是分配给一个task的，那么这个task就要处理50条数据。而增加了shuffle read task以后，每个task就分配到一个key，即每个task就处理10条数据，那么自然每个task的执行时间都会变短了。具体原理如下图所示。
 
@@ -78,7 +78,7 @@ tags:
 **方案实现思路**：这个方案的核心实现思路就是进行两阶段聚合。第一次是局部聚合，先给每个key都打上一个随机数，比如10以内的随机数，此时原先一样的key就变成不一样的了，比如(hello, 1) (hello, 1) (hello, 1) (hello, 1)，就会变成(1_hello, 1) (1_hello, 1) (2_hello, 1) (2_hello, 1)。接着对打上随机数后的数据，执行reduceByKey等聚合操作，进行局部聚合，那么局部聚合结果，就会变成了(1_hello, 2) (2_hello, 2)。然后将各个key的前缀给去掉，就会变成(hello,2)(hello,2)，再次进行全局聚合操作，就可以得到最终结果了，比如(hello, 4)。
 
 **方案实现原理**：将原本相同的key通过附加随机前缀的方式，变成多个不同的key，就可以让原本被一个task处理的数据分散到多个task上去做局部聚合，进而解决单个task处理数据量过多的问题。接着去除掉随机前缀，再次进行全局聚合，就可以得到最终的结果。具体原理见下图。
-![数据倾斜发生的原理](/img/spark/11/3.png)
+![数据倾斜发生的原理](img/older/spark/11/3.png)
 
 ```
 // 第一步，给RDD中的每个key都打上一个随机前缀。
@@ -135,7 +135,7 @@ JavaPairRDD<Long, Long> globalAggrRdd = removedRandomPrefixRdd.reduceByKey(
 **方案实现思路**：不使用join算子进行连接操作，而使用Broadcast变量与map类算子实现join操作，进而完全规避掉shuffle类的操作，彻底避免数据倾斜的发生和出现。将较小RDD中的数据直接通过collect算子拉取到Driver端的内存中来，然后对其创建一个Broadcast变量；接着对另外一个RDD执行map类算子，在算子函数内，从Broadcast变量中获取较小RDD的全量数据，与当前RDD的每一条数据按照连接key进行比对，如果连接key相同的话，那么就将两个RDD的数据用你需要的方式连接起来。
 
 **方案实现原理**：普通的join是会走shuffle过程的，而一旦shuffle，就相当于会将相同key的数据拉取到一个shuffle read task中再进行join，此时就是reduce join。但是如果一个RDD是比较小的，则可以采用广播小RDD全量数据+map算子来实现与join同样的效果，也就是map join，此时就不会发生shuffle操作，也就不会发生数据倾斜。具体原理如下图所示。
-![数据倾斜发生的原理](/img/spark/11/4.png)
+![数据倾斜发生的原理](img/older/spark/11/4.png)
 
 ```
 // 首先将数据量比较小的RDD的数据，collect到Driver中来。
@@ -189,7 +189,7 @@ JavaPairRDD<String, Tuple2<String, Row>> joinedRdd = rdd2.mapToPair(
   - 最后将两次join的结果使用union算子合并起来即可，就是最终的join结果。
 
 **方案实现原理**：对于join导致的数据倾斜，如果只是某几个key导致了倾斜，可以将少数几个key分拆成独立RDD，并附加随机前缀打散成n份去进行join，此时这几个key对应的数据就不会集中在少数几个task上，而是分散到多个task进行join了。具体原理见下图。
-![数据倾斜发生的原理](/img/spark/11/5.png)
+![数据倾斜发生的原理](img/older/spark/11/5.png)
 
 ```
 // 首先从包含了少数几个导致数据倾斜key的rdd1中，采样10%的样本数据。

@@ -123,8 +123,8 @@ val rdd3 = rdd1.map(rdd2DataBroadcast...)
 比如如下两幅图，就是典型的例子，分别基于reduceByKey和groupByKey进行单词计数。其中第一张图是groupByKey的原理图，可以看到，没有进行任何本地聚合时，
 所有数据都会在集群节点之间传输；第二张图是reduceByKey的原理图，可以看到，每个节点本地的相同key数据，都进行了预聚合，然后才传输到其他节点上进行全局聚合。
 
-![使用map-side预聚合的shuffle操作](/img/spark/10/1.png)
-![使用map-side预聚合的shuffle操作](/img/spark/10/2.png)
+![使用map-side预聚合的shuffle操作](img/older/spark/10/1.png)
+![使用map-side预聚合的shuffle操作](img/older/spark/10/2.png)
 
 ##### 原则六：使用高性能的算子
 - 使用reduceByKey/aggregateByKey替代groupByKey

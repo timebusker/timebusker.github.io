@@ -11,9 +11,9 @@ tags:
 
 ### Kafka在zookeeper中存储结构图
 
-![image](/img/MQ-middle/kafka17.png)   
+![image](img/older/MQ-middle/kafka17.png)   
 
-![image](/img/MQ-middle/kafka23.png)   
+![image](img/older/MQ-middle/kafka23.png)   
 
 ##### admin
 
@@ -39,7 +39,7 @@ topic注册信息（/brokers/topics/[topic]），存储该topic的所有partitio
 
 `/brokers/topics/[topic]` : 存储某个topic的partitions所有分配信息
 
-![image](/img/MQ-middle/kafka18.png)   
+![image](img/older/MQ-middle/kafka18.png)   
 
 ```
 # topic节点数据内容
@@ -63,7 +63,7 @@ topic注册信息（/brokers/topics/[topic]），存储该topic的所有partitio
 
 /brokers/topics/[topic]/partitions/[partitionId]/state
 
-![image](/img/MQ-middle/kafka19.png)   
+![image](img/older/MQ-middle/kafka19.png)   
 
 ```
 {
@@ -79,7 +79,7 @@ topic注册信息（/brokers/topics/[topic]），存储该topic的所有partitio
 
 /brokers/ids/[0...N]                 
 
-![image](/img/MQ-middle/kafka20.png)  
+![image](img/older/MQ-middle/kafka20.png)  
 
 ```
 {
@@ -97,13 +97,13 @@ topic注册信息（/brokers/topics/[topic]），存储该topic的所有partitio
 
 此值为一个数字,kafka集群中第一个broker第一次启动时为1，以后只要集群中center controller中央控制器所在broker变更或挂掉，就会重新选举新的center controller，每次center controller变更controller_epoch值就会 + 1; 
 
-![image](/img/MQ-middle/kafka21.png) 
+![image](img/older/MQ-middle/kafka21.png) 
 
 ##### Controller注册信息
 
 /controller -> int (broker id of the controller)  存储center controller中央控制器所在kafka broker的信息
 
-![image](/img/MQ-middle/kafka22.png) 
+![image](img/older/MQ-middle/kafka22.png) 
 
 ```
 {

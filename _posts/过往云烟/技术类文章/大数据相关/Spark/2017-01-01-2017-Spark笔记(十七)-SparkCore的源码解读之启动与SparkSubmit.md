@@ -11,7 +11,7 @@ tags:
 
 #### 启动过程
 
-![SparkCore的源码解读之启动流程](/img/spark/17/1.png)
+![SparkCore的源码解读之启动流程](img/older/spark/17/1.png)
 
 - 通过Shell脚本启动Master，Master类继承Actor类，通过ActorySystem创建并启动。
 - 通过Shell脚本启动Worker，Worker类继承Actor类，通过ActorySystem创建并启动。
@@ -147,7 +147,7 @@ fi
 
 #### SparkSubmit类
 
-![SparkCore的源码解读之启动流程](/img/spark/17/3.png)
+![SparkCore的源码解读之启动流程](img/older/spark/17/3.png)
 
 ```
 ./bin/spark-submit 
@@ -159,4 +159,4 @@ fi
  1000
 ```
 
-![SparkCore的源码解读之启动流程](/img/spark/17/2.png)
+![SparkCore的源码解读之启动流程](img/older/spark/17/2.png)

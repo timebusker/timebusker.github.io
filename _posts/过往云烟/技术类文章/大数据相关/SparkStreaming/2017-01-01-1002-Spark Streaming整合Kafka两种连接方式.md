@@ -13,9 +13,9 @@ tags:
 
 Receiver模式又称kafka高级api模式
 
-[整合Kafka两种连接方式](/img/spark-sreaming/1.png)
+[整合Kafka两种连接方式](img/older/spark-sreaming/1.png)
 
-[整合Kafka两种连接方式](/img/spark-sreaming/2.png)
+[整合Kafka两种连接方式](img/older/spark-sreaming/2.png)
 
 如图，SparkStreaming中的Receivers直接订阅kafka中的消息，并把接收到的数据存储在Executor，这会存在一些问题：
 
@@ -32,7 +32,7 @@ Receiver模式又称kafka高级api模式
 
 Direct模式又称kafka低级API模式，采用kafka直连的方式消费数据。
 
-[整合Kafka两种连接方式](/img/spark-sreaming/3.png)
+[整合Kafka两种连接方式](img/older/spark-sreaming/3.png)
 
 直连方式就是使用executor直接连接kakfa节点。
 

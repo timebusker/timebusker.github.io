@@ -28,7 +28,7 @@ tags:
   发送心跳出了要告诉JobTracker自己是否存活外，心跳信息中还包含当前空闲的slots数量等信息。  
 ##### JobTracker  
 - JobTracker进程的作用是运行和监控MapReduce的Job，当一个客户端向JobTracker提交任务时，过程如下图：  
-![image](/img/hadoop/14.png)    
+![image](img/older/hadoop/14.png)    
    1. JobTracker接收Job请求（**接受JOB请求**）
    2. JobTracker根据Job的输入参数向NameNode请求包含这些文件数据块的DataNode节点列表（**根据计算分配资源**）
    3. JobTracker确定Job的执行计划：确定执行此job的Map、Reduce的task数量，并且分配这些task到离数据块最近的节点上（**指定执行计划并分配计算**）
@@ -151,9 +151,9 @@ public class JobSubmitter {
 ——合理的分片大小是：趋向于HDFS块大小，默认128M。是因为它确保可以存储在单个节点上的最大输入块的大小。如果分片跨越两个数据块，
 那么对于任何一个HDFS节点（基本上不可能同时存储着着两个数据块），都需要网络传输数据。     
 
-![image](/img/hadoop/hadoop-mr-1.jpg)    
-![image](/img/hadoop/hadoop-mr-2.jpg)    
-![image](/img/hadoop/hadoop-mr-3.jpg)    
+![image](img/older/hadoop/hadoop-mr-1.jpg)    
+![image](img/older/hadoop/hadoop-mr-2.jpg)    
+![image](img/older/hadoop/hadoop-mr-3.jpg)    
 
 ##### 任务执行流程
 1、执行计算任务有两个角色一个是JobTracker，一个是TaskTracker，前者用于管理和调度工作，后者用于执行工作。  
@@ -242,13 +242,13 @@ SequenceFileInputFormat是指hadoop的序列化文件，另外还有KeyValueText
 当在发送给 Reduce 时对数据进行一次本地合并，减少数据传输量以提高网络IO性能。   
 
 [**【Hadoop 中的 Combiner 过程】**](https://blog.csdn.net/u011007180/article/details/52495191) 
-![image](/img/hadoop/42.png)  
-![image](/img/hadoop/43.png)  
-![image](/img/hadoop/44.png)  
-![image](/img/hadoop/45.png)  
-![image](/img/hadoop/46.png)  
-![image](/img/hadoop/47.png)  
-![image](/img/hadoop/48.png)  
+![image](img/older/hadoop/42.png)  
+![image](img/older/hadoop/43.png)  
+![image](img/older/hadoop/44.png)  
+![image](img/older/hadoop/45.png)  
+![image](img/older/hadoop/46.png)  
+![image](img/older/hadoop/47.png)  
+![image](img/older/hadoop/48.png)  
 =======
 ---
 layout:     post
@@ -283,7 +283,7 @@ tags:
   发送心跳出了要告诉JobTracker自己是否存活外，心跳信息中还包含当前空闲的slots数量等信息。  
 ##### JobTracker  
 - JobTracker进程的作用是运行和监控MapReduce的Job，当一个客户端向JobTracker提交任务时，过程如下图：  
-![image](/img/hadoop/14.png)    
+![image](img/older/hadoop/14.png)    
    1. JobTracker接收Job请求（**接受JOB请求**）
    2. JobTracker根据Job的输入参数向NameNode请求包含这些文件数据块的DataNode节点列表（**根据计算分配资源**）
    3. JobTracker确定Job的执行计划：确定执行此job的Map、Reduce的task数量，并且分配这些task到离数据块最近的节点上（**指定执行计划并分配计算**）
@@ -406,9 +406,9 @@ public class JobSubmitter {
 ——合理的分片大小是：趋向于HDFS块大小，默认128M。是因为它确保可以存储在单个节点上的最大输入块的大小。如果分片跨越两个数据块，
 那么对于任何一个HDFS节点（基本上不可能同时存储着着两个数据块），都需要网络传输数据。     
 
-![image](/img/hadoop/hadoop-mr-1.jpg)    
-![image](/img/hadoop/hadoop-mr-2.jpg)    
-![image](/img/hadoop/hadoop-mr-3.jpg)    
+![image](img/older/hadoop/hadoop-mr-1.jpg)    
+![image](img/older/hadoop/hadoop-mr-2.jpg)    
+![image](img/older/hadoop/hadoop-mr-3.jpg)    
 
 ##### 任务执行流程
 1、执行计算任务有两个角色一个是JobTracker，一个是TaskTracker，前者用于管理和调度工作，后者用于执行工作。  
@@ -502,12 +502,12 @@ SequenceFileInputFormat是指hadoop的序列化文件，另外还有KeyValueText
 当在发送给 Reduce 时对数据进行一次本地合并，减少数据传输量以提高网络IO性能。   
 
 [**【Hadoop 中的 Combiner 过程】**](https://blog.csdn.net/u011007180/article/details/52495191) 
-![image](/img/hadoop/42.png)  
-![image](/img/hadoop/43.png)  
-![image](/img/hadoop/44.png)  
-![image](/img/hadoop/45.png)  
-![image](/img/hadoop/46.png)  
-![image](/img/hadoop/47.png)  
-![image](/img/hadoop/48.png)  
+![image](img/older/hadoop/42.png)  
+![image](img/older/hadoop/43.png)  
+![image](img/older/hadoop/44.png)  
+![image](img/older/hadoop/45.png)  
+![image](img/older/hadoop/46.png)  
+![image](img/older/hadoop/47.png)  
+![image](img/older/hadoop/48.png)  
 >>>>>>> 9e9ce05fb213fbbcbd3ec27310e657cec97881c5
-![image](/img/hadoop/49.png)  
+![image](img/older/hadoop/49.png)  

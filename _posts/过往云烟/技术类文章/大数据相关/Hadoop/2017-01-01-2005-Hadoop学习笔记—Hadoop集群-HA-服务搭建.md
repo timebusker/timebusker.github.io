@@ -27,12 +27,12 @@ tags:
 
 ### Hadoop（HDFS HA）总体架构
 
-![Hadoop（HDFS HA）总体架构](/img/hadoop/hadoop-ha.png)
+![Hadoop（HDFS HA）总体架构](img/older/hadoop/hadoop-ha.png)
 
 
 ### 服务器分布及相关说明
 集群信息规划分配如下：
-![cluster](/img/hadoop/hadoop-guihua.png)
+![cluster](img/older/hadoop/hadoop-guihua.png)
 
 ### 安装步骤
 
@@ -526,8 +526,8 @@ hdp-cluster-19
 `./sbin/yarn-daemons.sh start resourcemanager`   
 	
 - HDFS的HA功能测试 http://hdp-cluster-13:50070/dfshealth.html
-![active](/img/hadoop/ha-1.png)
-![standby](/img/hadoop/ha-2.png)
+![active](img/older/hadoop/ha-1.png)
+![standby](img/older/hadoop/ha-2.png)
 	
 - 将主节点上的NameNode kill 后，再次重启查看页面效果。通过命令`jps` 查看主NameNode进程，然后kill -9 进程号，现次重启刚刚kill的NameNode，
 分别访问 `http://hdp-cluster-13:50070/dfshealth.html` 和 `http://hdp-cluster-14:50070/dfshealth.html` 查看状态是否已经切换。
@@ -540,7 +540,7 @@ hdp-cluster-19
 
 * 通过 Web 界面查看任务的运行情况  
 `http://hdp-cluster-13:8088/cluster`   
-![cluster](/img/hadoop/ha-3.png)
+![cluster](img/older/hadoop/ha-3.png)
 
 #### 不停机更新配置
 对集群配置文件修改后，将文件同步到各节点执行如下命令分别将信息更新到namenode和 resourcemananger上

@@ -23,7 +23,7 @@ tags:
 sys所有oracle的数据字典的基表和视图都存放在sys用户中，这些基表和视图对于oracle的运行是至关重要的，由数据库自己维护，任何用户都不能手动更改。sys用户拥有dba，sysdba，sysoper等角色或权限，是oracle权限最高的用户。   
 
 system用户用于存放次一级的内部数据，如oracle的一些特性或工具的管理信息。system用户拥有普通dba角色权限。   
-![image](/img/oracle/2018041800/1.png)  
+![image](img/older/oracle/2018041800/1.png)  
 system如果正常登录，它其实就是一个普通的dba用户，但是如果以as sysdba登录，其结果实际上它是作为sys用户登录的，这一点类似Linux里面的sudo的感觉，从登录信息里面我们可以看出来。因此在as sysdba连接数据库后，创建的对象实际上都是生成在sys中的。其他用户也是一样，如果 as sysdba登录，也是作为sys用户登录的。  
 
 ##### dba和sysdba的区别

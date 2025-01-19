@@ -162,7 +162,7 @@ gptransfer`只从用户数据库传输数据`，postgres、template0以及templa
 针对表存在问题，可以用`--skip-existing`、`--truncate`或者`--drop`选项`覆盖`这一行为。
 
 - **在完整模式和表模式中会被拷贝的对象：**
-![image](/img/greenplum/1.png)
+![image](img/older/greenplum/1.png)
 
 #### 锁
 -x选项启用表锁定。会在源表上放置一个排他锁直到拷贝以及验证（如果请求）完成。

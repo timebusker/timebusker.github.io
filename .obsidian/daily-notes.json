@@ -1,5 +1,5 @@
 {
-  "template": "模板/博客模板",
-  "folder": "每日复盘",
+  "template": "_posts/模板/博客模板",
+  "folder": "_posts",
   "format": "YYYY-MM-DD"
 }

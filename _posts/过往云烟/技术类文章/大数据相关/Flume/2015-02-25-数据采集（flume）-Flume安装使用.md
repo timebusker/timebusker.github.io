@@ -35,7 +35,7 @@ export JAVA_OPTS="-Dcom.sun.management.jmxremote -verbose:gc -server -Xms256m -X
 - 命名Agent下的`sink的名字`.
 - 将source和sink通过channal`绑定`起来.
 
-![数据采集（flume）](/img/flume/8.png)
+![数据采集（flume）](img/older/flume/8.png)
 
 ```
 # 设置名称

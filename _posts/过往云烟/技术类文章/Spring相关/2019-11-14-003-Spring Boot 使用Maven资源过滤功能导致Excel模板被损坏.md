@@ -13,7 +13,7 @@ tags:
 
 项目是spring boot 的项目使用Mavne管理依赖，开发一个Excel表模板下载功能，模板读取和模板下载都是么有问题的，但打开Excel表示提示，文件已损坏。现象如下：
 
-![使用Maven资源过滤功能导致Excel模板被损坏](/img/spring/9.png)
+![使用Maven资源过滤功能导致Excel模板被损坏](img/older/spring/9.png)
 
 ##### 问题分析
 
@@ -116,4 +116,4 @@ man clean package -Pdev
 
 ##### 问题解决
 
-![使用Maven资源过滤功能导致Excel模板被损坏](/img/spring/10.png)
+![使用Maven资源过滤功能导致Excel模板被损坏](img/older/spring/10.png)

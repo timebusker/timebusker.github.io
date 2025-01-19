@@ -10,20 +10,20 @@ tags:
 ---
 
 #### RegionServer内部结构
-![RegionServer核心模块](/img/hbase/regionserver/1.png)
+![RegionServer核心模块](img/older/hbase/regionserver/1.png)
 
 
 #### HLog
-![RegionServer核心模块](/img/hbase/regionserver/2.png)
+![RegionServer核心模块](img/older/hbase/regionserver/2.png)
 
 
 #### MemStore
-![RegionServer核心模块](/img/hbase/regionserver/3.png)
+![RegionServer核心模块](img/older/hbase/regionserver/3.png)
 
 
 #### HFile
-![RegionServer核心模块](/img/hbase/regionserver/4.png)
+![RegionServer核心模块](img/older/hbase/regionserver/4.png)
 
 
 #### BlockCache
-![RegionServer核心模块](/img/hbase/regionserver/5.png)
+![RegionServer核心模块](img/older/hbase/regionserver/5.png)

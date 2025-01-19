@@ -13,8 +13,7 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "userIgnoreFilters": [
-    "css/",
-    "fonts/"
-  ]
+  "userIgnoreFilters": null,
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true
 }

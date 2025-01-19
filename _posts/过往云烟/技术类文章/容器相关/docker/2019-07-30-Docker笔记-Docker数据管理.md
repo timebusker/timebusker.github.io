@@ -9,7 +9,7 @@ tags:
     - Docker
 ---  
 
-[Docker数据管理](/img/docker/types-of-mounts.png)
+[Docker数据管理](img/older/docker/types-of-mounts.png)
 
 ### 数据卷
 

@@ -101,7 +101,7 @@ sh get-docker.sh --mirror Aliyun
 
 > **登录阿里云**-->**控制台**-->**产品与服务**-->**弹性计算**-->**容器镜像服务**-->**镜像中心**-->**镜像加速器**
 
-[镜像加速](/img/docker/image-jiasu.png)
+[镜像加速](img/older/docker/image-jiasu.png)
 
 **分别完成服务加速器的两步操作即可**
 

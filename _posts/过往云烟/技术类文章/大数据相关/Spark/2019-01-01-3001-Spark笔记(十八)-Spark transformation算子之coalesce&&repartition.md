@@ -56,7 +56,7 @@ logs.map(x=>{
 
 这样，我们就会有两个stage，stage1是6个并行高速ETL处理，stage2是通过shuffle合并成2个文件。
 
-![Spark](/img/spark/18/1.png)
+![Spark](img/older/spark/18/1.png)
 
 如果出事RDD为100个分区，你觉得并行度不够，你可以coalesce(1000,shuffle = true)，将分区数增加到1000(默认hash partitioner进行重新)，
 当然你也可以使用自定义分区器，但是一定要序列化。
@@ -83,7 +83,7 @@ def repartition(numPartitions: Int)(implicit ord: Ordering[T] = null): RDD[T] = 
 这个算子前后是一个`宽依赖`，字面就是重新分区的意思，与coalesce不同，repartition一定会将分区变成numPartitions个的RDD。
 通过看源码可知，它`底层时调用的coalesce算子`，并且使用该算子一定会shuffle。
 
-![Spark](/img/spark/18/2.png)
+![Spark](img/older/spark/18/2.png)
 
 #### 总结
 

@@ -30,8 +30,8 @@ yum remove mysql-libs.x86_64
 #### 离线安装  
 - 下载离线安装包   
 额外需要使用的依赖包还有：`libaio.x86_64`、`openssl.x86_64`,需要检查是否已经安装。    
-![image](/img/mysql/1/1.png)   
-![image](/img/mysql/1/2.png)  
+![image](img/older/mysql/1/1.png)   
+![image](img/older/mysql/1/2.png)  
 
 ```
 # 顺序安装一下依赖包    

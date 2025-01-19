@@ -12,7 +12,7 @@ tags:
 > 为spark提交的作业提供合理的资源分配
 
 #### Spark作业运行
-![Spark作业运行](/img/spark/14/1.png)
+![Spark作业运行](img/older/spark/14/1.png)
 
 使用spark-submit提交一个Spark作业之后，这个作业就会启动一个对应的Driver进程。根据你使用的部署模式（deploy-mode）不同，Driver进程可能在本地启动，
 也可能在集群中某个工作节点上启动。Driver进程本身会根据我们设置的参数，占有一定数量的内存和CPU core。而Driver进程要做的第一件事情，就是向集群管理器
