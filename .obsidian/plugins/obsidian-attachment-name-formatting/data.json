@@ -54,7 +54,10 @@
   "enableTime": false,
   "enablePathHash": false,
   "enableExcludeFileName": false,
-  "excludedFolders": [],
+  "excludedFolders": [
+    "_posts/过往云烟",
+    "Select excluded folder"
+  ],
   "subfolders": [
     "",
     "",

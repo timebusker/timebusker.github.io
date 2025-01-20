@@ -14,6 +14,6 @@
     "downscalePercent": 100
   },
   "userIgnoreFilters": null,
-  "useMarkdownLinks": true,
-  "showUnsupportedFiles": true
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": false
 }
