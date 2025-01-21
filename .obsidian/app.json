@@ -5,7 +5,7 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "newLinkFormat": "absolute",
-  "attachmentFolderPath": "./附件",
+  "attachmentFolderPath": "/img/Z笔记附件",
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",
@@ -15,5 +15,6 @@
   },
   "userIgnoreFilters": null,
   "useMarkdownLinks": true,
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "newFileFolderPath": "img/Z笔记附件"
 }
