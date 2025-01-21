@@ -4,7 +4,7 @@
   "showLineNumber": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "newLinkFormat": "relative",
+  "newLinkFormat": "absolute",
   "attachmentFolderPath": "./附件",
   "pdfExportSettings": {
     "includeName": true,
