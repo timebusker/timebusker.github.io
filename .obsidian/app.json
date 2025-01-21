@@ -4,8 +4,8 @@
   "showLineNumber": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "newLinkFormat": "absolute",
-  "attachmentFolderPath": "img/Z笔记附件",
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "./附件",
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",
