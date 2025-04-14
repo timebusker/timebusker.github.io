@@ -503,7 +503,7 @@ pre code {
   -moz-background-size: cover;
   /*background-size: cover;
   -o-background-size: cover;*/
-  background-size:auto 480px;
+  background-size:auto 500px;
   margin-bottom: 0px;
   height: 500px;
   /* 0 on mobile, modify by Hux */
