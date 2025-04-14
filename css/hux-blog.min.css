@@ -501,15 +501,11 @@ pre code {
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  /*background-size: cover;
+  -o-background-size: cover;*/
+  background-size:auto 480px;
   margin-bottom: 0px;
   height: 500px;
-   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;  /* 确保最小高度为视口高度 */
-  -webkit-background-size: cover /* 兼容旧版Safari/Chrome */
   /* 0 on mobile, modify by Hux */
 }
 @media only screen and (min-width: 768px) {
