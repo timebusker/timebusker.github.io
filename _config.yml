@@ -33,6 +33,7 @@ github_username:    timebusker
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
 paginate: 15
+include: ["tencent16262496014029544627.txt"]
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: false                          # if you want to customize anchor. check out line:181 of `post.html`
 
