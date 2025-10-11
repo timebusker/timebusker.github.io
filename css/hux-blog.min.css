@@ -978,7 +978,7 @@ img::-moz-selection {
 /* Hux make all img responsible in post-container */
 .post-container img {
   display: block;
-  max-width: 100%;
+  max-width: 700px;
   height: auto;
   margin: 1.5em auto 1.6em auto;
 }
