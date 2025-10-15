@@ -14,7 +14,7 @@ tags:
 
 打开顶部工具栏 `File` -> `Settings` -> `Default Settings` -> `Build` -> `Compiler` 然后勾选 `Build project automatically`.
 
-![image](img/older/tools/5.png)
+![image](/img/older/tools/5.png)
 
 #### 开启IDEA的自动编译（动态）
 
@@ -22,13 +22,13 @@ tags:
 
 `compile.document.save.trigger.delay`主要是针对静态文件如`JS`、`CSS`的更新，延迟时间减少。
 
-![image](img/older/tools/6.png)
+![image](/img/older/tools/6.png)
 
 #### 开启IDEA的热部署策略（非常重要）
 
 顶部菜单`RUM` -> `Edit Configurations` -> `SpringBoot` -> `目标项目` -> `勾选热更新`
 
-![image](img/older/tools/7.png)
+![image](/img/older/tools/7.png)
 
 
 #### 添加SpringBoot热部署依赖
@@ -43,4 +43,4 @@ tags:
 
 #### 关闭浏览器缓存
 
-![image](img/older/tools/8.png)
+![image](/img/older/tools/8.png)
