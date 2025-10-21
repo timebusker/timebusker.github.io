@@ -11,12 +11,14 @@
             "id": "0230abb89d2da651",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "img/top-photo/v2-37eb48d8bb77240896ac7c5c87dfe473_1440w.jpg"
+                "file": "_posts/项目管理/2024-04-01-项目经理面试集合.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "v2-37eb48d8bb77240896ac7c5c87dfe473_1440w"
+              "icon": "lucide-file",
+              "title": "2024-04-01-项目经理面试集合"
             }
           }
         ]
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "img/top-photo/v2-37eb48d8bb77240896ac7c5c87dfe473_1440w.jpg",
-                "followCursor": false,
+                "file": "_posts/项目管理/2024-04-01-项目经理面试集合.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "v2-37eb48d8bb77240896ac7c5c87dfe473_1440w 的大纲"
+              "title": "2024-04-01-项目经理面试集合 的大纲"
             }
           },
           {
@@ -182,7 +184,7 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "0230abb89d2da651",
+  "active": "fa5e9173f8c0b87c",
   "lastOpenFiles": [
     "_posts/项目管理/2023-01-26-项目经验交流.md",
     "img/top-photo/124.jpg",
