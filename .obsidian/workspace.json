@@ -25,12 +25,14 @@
             "id": "52f2d7f383e461d2",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "img/about-mine-gentle.gif"
+                "file": "_posts/工作目录/常用账户保存.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "about-mine-gentle"
+              "icon": "lucide-file",
+              "title": "常用账户保存"
             }
           }
         ],
@@ -155,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "img/about-mine-gentle.gif",
+                "file": "_posts/工作目录/常用账户保存.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "about-mine-gentle 的大纲"
+              "title": "常用账户保存 的大纲"
             }
           },
           {
@@ -199,6 +201,10 @@
   },
   "active": "52f2d7f383e461d2",
   "lastOpenFiles": [
+    "_posts/每日复盘/2025-10-24-长线逻辑保存.md",
+    "_posts/工作目录/常用账户保存.md",
+    "_posts/工作目录",
+    "img/Z笔记附件/2025-10-24-长线逻辑保存_image_1.png",
     "img/apple-touch-icon.png",
     "img/about-mine-gentle.gif",
     "img/Z笔记附件/tmp1760541641098_2025-05-13-关于竞价的规则及交易技巧_image_1.png",
@@ -232,8 +238,6 @@
     "_posts/项目管理/2023-10-11-项目管理之进度管理.md",
     "_posts/项目管理/2023-10-09-项目管理之范围管理.md",
     "img/top-photo/108.jpg",
-    "img/top-photo/1.jpg",
-    "img/top-photo/144.jpg",
     "img/top-photo/v2-3929db79658a4c7bad081dc22fb1ffaa_1440w.jpg.crdownload",
     "img/top-photo/v2-6f65cef4f9387577bce45522cbf23720_1440w.jpg.crdownload",
     "img/top-photo/v2-83b7607f95b8966d5605a4667ac59048_1440w.jpg.crdownload",
@@ -243,8 +247,6 @@
     "img/top-photo/v2-bef92dda217b492da83aa310caa4c9e1_1440w.jpg.crdownload",
     "img/top-photo/v2-9d40b0491118a4dd56127aa3710bf9a0_1440w.jpg.crdownload",
     "img/top-photo/v2-0e019d202e98231de1d824081a81b68e_1440w.jpg.crdownload",
-    "img/top-photo/v2-c4c4230aca9a3b3b44b3ba86b254dca1_1440w.jpg.crdownload",
-    "_posts/知识库/2024-10-08-看盘、选股、情绪把控.md",
     "知识库/未命名.canvas",
     "未命名.canvas"
   ]
