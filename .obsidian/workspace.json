@@ -27,12 +27,20 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "_posts/工作目录/常用账户保存.md",
+=======
+                "file": "_posts/项目管理/2024-07-22-项目管理之敏捷开发.md",
+>>>>>>> aafb982312bcec568a14afd1cf6a124ef3f418a6
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "常用账户保存"
+=======
+              "title": "2024-07-22-项目管理之敏捷开发"
+>>>>>>> aafb982312bcec568a14afd1cf6a124ef3f418a6
             }
           }
         ],
@@ -157,13 +165,21 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "_posts/工作目录/常用账户保存.md",
+=======
+                "file": "_posts/项目管理/2024-07-22-项目管理之敏捷开发.md",
+>>>>>>> aafb982312bcec568a14afd1cf6a124ef3f418a6
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
+<<<<<<< HEAD
               "title": "常用账户保存 的大纲"
+=======
+              "title": "2024-07-22-项目管理之敏捷开发 的大纲"
+>>>>>>> aafb982312bcec568a14afd1cf6a124ef3f418a6
             }
           },
           {
@@ -201,6 +217,7 @@
   },
   "active": "52f2d7f383e461d2",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "_posts/每日复盘/2025-10-24-长线逻辑保存.md",
     "_posts/工作目录/常用账户保存.md",
     "_posts/工作目录",
@@ -208,35 +225,43 @@
     "img/apple-touch-icon.png",
     "img/about-mine-gentle.gif",
     "img/Z笔记附件/tmp1760541641098_2025-05-13-关于竞价的规则及交易技巧_image_1.png",
+=======
+    "_posts/每日复盘/2025-02-20-交易的道与术（二）.md",
+    "_posts/每日复盘/2025-02-21-交易的道与术（三）.md",
+    "_posts/每日复盘/2025-02-22-交易的道与术（四）.md",
+    "_posts/每日复盘/2025-02-19-交易的道与术（一）.md",
+>>>>>>> aafb982312bcec568a14afd1cf6a124ef3f418a6
     "_posts/每日复盘/2025-05-08-看盘要点总结.md",
-    "_posts/每日复盘/2025-07-20-交易的道与术（二）.md",
-    "_posts/每日复盘/2025-07-22-交易的道与术（四）.md",
+    "_posts/项目管理/2024-07-22-项目管理之敏捷开发.md",
+    "_posts/项目管理/2024-04-01-项目经理面试集合.md",
+    "_posts/考证笔记/系统集成/2022-05-25-0001-软考中级（系统集成）第一章.md",
+    "_posts/2021-07-19-经典美句收录集合.md",
+    "_posts/项目管理/2023-10-06-项目管理之整体管理.md",
+    "_posts/项目管理/2023-10-09-项目管理之范围管理.md",
+    "_posts/项目管理/2023-11-08-项目管理之人风险管理.md",
+    "_posts/项目管理/2023-10-28-项目管理之人干系人管理.md",
+    "_posts/项目管理/2023-10-25-项目管理之人沟通管理.md",
+    "_posts/项目管理/2023-01-26-项目经验交流.md",
+    "img/404-bg.jpg",
+    "img/about-mine-gentle.gif",
+    "img/apple-touch-icon.png",
+    "img/Z笔记附件/tmp1760541641098_2025-05-13-关于竞价的规则及交易技巧_image_1.png",
     "_posts/知识库/2024-12-05-经典图形笔记.md",
     "_posts/知识库/2025-01-15-个人操作复盘总结.md",
     "_posts/知识库/2025-05-14-同花顺常用公式.md",
-    "_posts/每日复盘/2025-07-19-交易的道与术（一）.md",
     "_posts/知识库/2022-05-13-关于集合竞价的规则及交易技巧.md",
     "_posts/知识库/2024-09-01-分时看盘绝技之黄白线劈叉.md",
     "_posts/知识库/2024-09-02- 股票操作复盘总结.md",
-    "_posts/2021-07-19-经典美句收录集合.md",
-    "_posts/每日复盘/2025-07-21-交易的道与术（三）.md",
-    "_posts/项目管理/2023-01-26-项目经验交流.md",
     "img/Z笔记附件/2023-01-26-项目经验交流_image_1.jpg",
     "img/Z笔记附件/2025-01-15-个人操作复盘总结_image_1.png",
     "img/Z笔记附件/2025-05-14-同花顺常用公式_image_1.png",
     "img/Z笔记附件/2025-05-14-同花顺常用公式_image_2.png",
-    "_posts/项目管理/2024-04-01-项目经理面试集合.md",
     "img/top-photo/124.jpg",
-    "_posts/项目管理/2023-10-06-项目管理之整体管理.md",
     "_posts/项目管理/2023-11-04-项目管理之人采购管理.md",
-    "_posts/项目管理/2023-11-08-项目管理之人风险管理.md",
-    "_posts/项目管理/2023-10-28-项目管理之人干系人管理.md",
-    "_posts/项目管理/2023-10-25-项目管理之人沟通管理.md",
     "_posts/项目管理/2023-10-22-项目管理之人力资源管理.md",
     "_posts/项目管理/2023-10-17-项目管理之质量管理.md",
     "_posts/项目管理/2023-10-14-项目管理之成本管理.md",
     "_posts/项目管理/2023-10-11-项目管理之进度管理.md",
-    "_posts/项目管理/2023-10-09-项目管理之范围管理.md",
     "img/top-photo/108.jpg",
     "img/top-photo/v2-3929db79658a4c7bad081dc22fb1ffaa_1440w.jpg.crdownload",
     "img/top-photo/v2-6f65cef4f9387577bce45522cbf23720_1440w.jpg.crdownload",
@@ -247,6 +272,10 @@
     "img/top-photo/v2-bef92dda217b492da83aa310caa4c9e1_1440w.jpg.crdownload",
     "img/top-photo/v2-9d40b0491118a4dd56127aa3710bf9a0_1440w.jpg.crdownload",
     "img/top-photo/v2-0e019d202e98231de1d824081a81b68e_1440w.jpg.crdownload",
+<<<<<<< HEAD
+=======
+    "img/top-photo/v2-c4c4230aca9a3b3b44b3ba86b254dca1_1440w.jpg.crdownload",
+>>>>>>> aafb982312bcec568a14afd1cf6a124ef3f418a6
     "知识库/未命名.canvas",
     "未命名.canvas"
   ]
