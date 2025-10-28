@@ -95,7 +95,7 @@
               "type": "backlink",
               "state": {
                 "file": "_posts/每日复盘/2025-02-19-交易的道与术（一）.md",
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -127,7 +127,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -166,11 +166,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 476.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,6 +186,10 @@
   },
   "active": "cb5a5070834f29ff",
   "lastOpenFiles": [
+    "_posts/每日复盘/2025-02-22-交易的道与术（四）.md",
+    "_posts/每日复盘/2025-02-21-交易的道与术（三）.md",
+    "_posts/每日复盘/2025-02-20-交易的道与术（二）.md",
+    "_posts/每日复盘/2025-02-19-交易的道与术（一）.md",
     "_posts/项目管理/2023-01-26-项目经验交流.md",
     "_posts/项目管理/2024-04-01-项目经理面试集合.md",
     "_posts/项目管理/2024-07-22-项目管理之敏捷开发.md",
