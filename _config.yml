@@ -20,12 +20,7 @@ sidebar-avatar: /img/about-mine-gentle.gif     # use absolute URL, seeing it's u
 # SNS settings
 RSS: false
 weibo_username:     timebusker
-# zhihu_username:     timebusker
 github_username:    timebusker
-# facebook_username:  timebusker
-# jianshu_username:   timebusker
-# twitter_username:   timebusker
-
 
 
 
@@ -38,7 +33,20 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: false                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
-
+# 图片相关配置
+image:
+  # 图片前缀
+  prefix: /blog/
+  # 懒加载配置
+  lazyload: true
+  lazyload_class: img-lazy
+  
+  # # 响应式图片
+  # responsive: true
+  # sizes:
+  #   - 400
+  #   - 800
+  #   - 120
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
