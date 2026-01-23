@@ -15,6 +15,7 @@ const HOSTNAME_WHITELIST = [
   "cdnjs.cloudflare.com"
 ]
 
+
 // The Util Function to hack URLs of intercepted requests
 const getFixedUrl = (req) => {
   var now = Date.now();

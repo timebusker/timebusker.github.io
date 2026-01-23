@@ -10,6 +10,7 @@ url: "http://timebusker.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/timebusker/" # you code repository
 
+
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "思维要走到多数人的前面，甚至是对立面"

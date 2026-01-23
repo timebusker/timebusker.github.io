@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "24cde0fbbbb65ba0",
+        "id": "25abc13a6257c8b4",
         "type": "tabs",
         "children": [
           {
-            "id": "cb5a5070834f29ff",
+            "id": "0ef61a1cfd957d6e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "img/gupiaofupan/20220821221717.jpg"
+                "file": "_posts/考证笔记/信息系统管理师（高项）/2026-01-21-第一章：信息化发展.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "20220821221717"
+              "icon": "lucide-file",
+              "title": "2026-01-21-第一章：信息化发展"
             }
           }
         ]
@@ -154,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "img/gupiaofupan/20220821221717.jpg",
+                "file": "_posts/考证笔记/信息系统管理师（高项）/2026-01-21-第一章：信息化发展.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "20220821221717 的大纲"
+              "title": "2026-01-21-第一章：信息化发展 的大纲"
             }
           }
         ],
@@ -182,8 +184,10 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "cb5a5070834f29ff",
+  "active": "0ef61a1cfd957d6e",
   "lastOpenFiles": [
+    "img/Z笔记附件/2026-01-21-第一章：信息化发展_image_4.png",
+    "img/gupiaofupan/20220821221717.jpg",
     "img/top-photo/125.jpg",
     "img/top-photo/131.jpg",
     "img/Z笔记附件/2026-01-21-第一章：信息化发展_image_3.png",
