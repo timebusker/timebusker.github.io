@@ -25,7 +25,7 @@
     true
   ],
   "image": "image",
-  "enableAudio": true,
+  "enableAudio": false,
   "audioExtensions": [
     true,
     true,
@@ -35,7 +35,7 @@
     true
   ],
   "audio": "audio",
-  "enableVideo": true,
+  "enableVideo": false,
   "videoExtensions": [
     true,
     true,
@@ -44,7 +44,7 @@
     true
   ],
   "video": "video",
-  "enablePdf": true,
+  "enablePdf": false,
   "pdfExtensions": [
     true
   ],
@@ -68,7 +68,7 @@
   "exportUnusedRiboon": false,
   "exportCurrentDeletion": false,
   "exportUnusedDeletion": true,
-  "copyPath": true,
+  "copyPath": false,
   "copyPathMode": "Absolute",
   "usingLog": false,
   "logPath": "/"

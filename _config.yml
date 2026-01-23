@@ -7,7 +7,7 @@ description: "Every failure is leading towards success."
 # keyword: "BY Blog, timebusker的博客, timebusker, Java, web, spring, spring-cloud, spring-boot, dubbo, iOS, Apple, iPhone"
 keyword: "timebusker的博客, timebusker"
 url: "http://timebusker.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/img"      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/timebusker/" # you code repository
 
 # Sidebar settings
@@ -31,22 +31,6 @@ paginate: 15
 include: ["tencent16262496014029544627.txt"]
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: false                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
-# 图片相关配置
-image:
-  # 图片前缀
-  prefix: /blog/
-  # 懒加载配置
-  lazyload: true
-  lazyload_class: img-lazy
-  
-  # # 响应式图片
-  # responsive: true
-  # sizes:
-  #   - 400
-  #   - 800
-  #   - 120
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
