@@ -68,7 +68,7 @@ img{border:none;}
      console.log(sqid);
 	 $(".intro-header").attr({
 	     "position" : "relative",
-         "href" : "http://www.timebusker.top",
+         "href" : "http://www.timebusker.cc",
          "title" : "timebusker",
 	     "style" : "background-image: url("+"'/img/top-photo/"+sqid+".jpg')"
      });
@@ -87,7 +87,8 @@ $.preLoadImages();
                 col-md-10 col-md-offset-1
                 post-container">
 
-				{{ content }}
+				<!-- {{ content }} -->
+                {{ content | replace: 'img/', '/img/' | replace: 'img/', site.baseurl '/img/' }}
 
                 <hr style="visibility: hidden;">
 
