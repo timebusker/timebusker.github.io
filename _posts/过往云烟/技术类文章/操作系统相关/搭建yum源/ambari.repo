@@ -1,0 +1,32 @@
+# CentOS-Ambari.repo
+#
+# The mirror system uses the connecting IP address of the client and the
+# update status of each mirror to pick mirrors that are updated to and
+# geographically close to the client.  You should use this for CentOS updates
+# unless you are manually picking other mirrors.
+#
+# If the mirrorlist= does not work for you, as a fall back you can try the 
+# remarked out baseurl= line instead.
+#
+#
+ 
+[Ambari]
+name=Ambari
+failovermethod=priority
+baseurl=http://www.timebusker.com/ambari/ambari/centos6/
+gpgcheck=0
+enabled=1
+
+[HDP]
+name=HDP
+failovermethod=priority
+baseurl=http://www.timebusker.com/ambari/HDP/centos6/
+gpgcheck=0
+enabled=1
+
+[HDP-UTIL]
+name=HDP-UTIL
+failovermethod=priority
+baseurl=http://www.timebusker.com/ambari/HDP-UTILS/
+gpgcheck=0
+enabled=1

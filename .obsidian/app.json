@@ -1,0 +1,20 @@
+{
+  "promptDelete": false,
+  "defaultViewMode": "source",
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "absolute",
+  "attachmentFolderPath": "/img/Z笔记附件",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "userIgnoreFilters": null,
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": false,
+  "newFileFolderPath": "img/Z笔记附件"
+}

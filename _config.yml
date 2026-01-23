@@ -1,0 +1,110 @@
+# Site settings
+title: timebusker
+SEOTitle: timebusker的博客
+header-img: img/post-bg-desk.jpg
+email: timebusker@gmail.com
+description: "Every failure is leading towards success."
+# keyword: "BY Blog, timebusker的博客, timebusker, Java, web, spring, spring-cloud, spring-boot, dubbo, iOS, Apple, iPhone"
+keyword: "timebusker的博客, timebusker"
+url: "http://timebusker.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/timebusker/" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "思维要走到多数人的前面，甚至是对立面"
+sidebar-avatar: /img/about-mine-gentle.gif     # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+weibo_username:     timebusker
+# zhihu_username:     timebusker
+github_username:    timebusker
+# facebook_username:  timebusker
+# jianshu_username:   timebusker
+# twitter_username:   timebusker
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 15
+include: ["tencent16262496014029544627.txt"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: false                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+
+
+
+# Disqus settings
+disqus_username: 
+
+# Netease settings
+netease_comment: false
+
+# 统计
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 1af286c4d389d9e668bb250fc25ec135
+
+# Google Analytics
+# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+# ga_domain: auto
+
+
+
+
+# Featured Tags
+featured-tags: false                    # 是否使用首页标签
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: false
+
+
+
+
+# Friends
+#friends: [
+#    {
+#        title: "简书·BY",
+#        href: "http://www.jianshu.com/"
+#    },{
+#        title: "Apple",
+#        href: "https://apple.com"
+#    },{
+#        title: "Apple Developer",
+#        href: "https://developer.apple.com/"
+#    }
+#]
+
+theme: jekyll-theme-minimal

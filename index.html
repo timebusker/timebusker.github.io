@@ -1,0 +1,53 @@
+---
+layout: page
+description: "思维要走到多数人的前面，甚至是对立面"
+---
+
+{% for post in site.posts %} {% if post.top == true and post.hidden != true %}
+<div class="post-preview">
+  <a href="{{ post.url | prepend: site.baseurl }}">
+    <h3 class="post-title" style="color:#9d1739">[置顶] {{ post.title }}</h3>
+    {% if post.subtitle %}
+    <h4 class="post-subtitle">{{ post.subtitle }}</h4>
+    {% endif %}
+    <div class="post-content-preview">
+      {% if post.lang == 'en' %} {{ post.content | strip_html | truncate:150 }}{% else %} {{ post.content | strip_html | truncate:150 }} {% endif %}
+    </div>
+  </a>
+  <p class="post-meta">
+    Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{%endif %} on {{ post.date | date: "%F" }}
+  </p>
+</div>
+<hr />
+{% endif %} {% endfor %} {% for post in paginator.posts %} {% if post.top != true and post.hidden != true %}
+<div class="post-preview">
+  <a href="{{ post.url | prepend: site.baseurl }}">
+    <h3 class="post-title">{{ post.title }}</h3>
+    {% if post.subtitle %}
+    <h4 class="post-subtitle">{{ post.subtitle }}</h4>
+    {% endif %}
+    <div class="post-content-preview">
+      {% if post.lang == 'en' %} {{ post.content | strip_html | truncate:150 }}{% else %} {{ post.content | strip_html | truncate:150 }} {% endif %}
+    </div>
+  </a>
+  <p class="post-meta">
+    Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{%endif %} on <bold>{{ post.date | date: "%F" }}</bold>
+  </p>
+</div>
+<hr />
+{% endif %} {% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; 上一页</a>
+  </li>
+  {% endif %} {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页 &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}

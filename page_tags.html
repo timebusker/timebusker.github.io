@@ -1,0 +1,96 @@
+---
+title: 博客归档
+layout: default
+description: 海纳百川,有容乃大;壁立千仞,无欲则刚。
+header-img: img/tag-bg.jpg
+---
+
+<style type="text/css">
+img{border:none;}
+.OnlineService_Bg {width:60px;height: 100px;overflow:hidden;position:fixed;right:2px;bottom:2px;z-index:10;margin-bottom: 20px;margin-right: 15%;}
+.OnlineService_Box {width:100%;height:100%;overflow:hidden;}
+.OnlineService_Top {width:100%;height:100%;}
+.OnlineService_Top a {display:block;width:100%;height:100%;padding-top:60px;line-height:30px;font-size:16px;text-align:center;background-image:url(/img/icon_top_svg.svg);background-size: cover; background-repeat:no-repeat;cursor:pointer;text-decoration:none;margin-right: 50px;}
+</style>
+<div class="OnlineService_Bg">
+	<div class="OnlineService_Box">
+		<div class="OnlineService_Top"><a href="#"></a></div>
+	</div>
+</div>
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" style="margin-top:200px">
+                <div class="site-heading" id="tag-heading">
+                    <h3>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h3>
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+(function($) {
+  $.preLoadImages = function() {
+	 var sqid = Math.floor((Math.random()*130)+1);
+     console.log(sqid);
+	 $(".intro-header").attr({
+	     "position" : "relative",
+         "href" : "http://www.timebusker.top",
+         "title" : "timebusker",
+	     "style" : "background-image: url("+"'/img/top-photo/"+sqid+".jpg')"
+     });
+  }
+})(jQuery)
+$.preLoadImages();
+</script>
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			<div id='tag_cloud' class="tags tags-sup js-tags">
+			    <!-- -->
+				<a class="tag-button--all" data-encode="" style="background-color:#9d1739">
+					Show All
+					<sup>{{site.posts.size}}</sup>
+				</a>
+				{% capture tags %}
+				{% for tag in site.tags %}
+				<a href="#{{ tag[0] }}" class="tag-button" title="{{ tag[0]}}" rel="{{ tag[1].size }}">
+					{{ tag[0] }} <sup>{{tag[1].size}}</sup>
+				</a>
+				{% endfor %}
+				{% endcapture %}
+                {{ tags | split:'</a>' | sort | join:'</a>' }}
+			</div>
+
+            <!-- 标签列表 -->
+			{% for tag in site.tags %}
+			<div class="one-tag-list">
+			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
+                    <span class="tag-text">{{ tag[0] }}</span>
+                </span>
+				{% for post in tag[1] %}
+				 <div class="post-preview">
+				    <a href="{{ post.url | prepend: site.baseurl }}" target="_blank">
+				        <h2 class="post-title">
+                            {{ post.title }}
+				        </h2>
+				        {% if post.subtitle %}
+				        <h3 class="post-subtitle">
+				            {{ post.subtitle }} 
+				        </h3>
+				        {% endif %}
+				    </a>
+				    <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p>
+				</div>
+				<hr>
+				{% endfor %}
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
