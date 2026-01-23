@@ -1,5 +1,8 @@
 color 0a
 @echo off & setlocal
+chcp 65001 > nul
+:: 后续代码使用UTF-8编码
+
 :: cd img/top-photo/
 :: call 0-rename-jpg.bat
 :: cd ..
