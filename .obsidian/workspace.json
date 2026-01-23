@@ -11,14 +11,12 @@
             "id": "cb5a5070834f29ff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "_posts/考证笔记/信息系统管理师（高项）/2026-01-21-第一章：信息化发展.md",
-                "mode": "source",
-                "source": false
+                "file": "img/gupiaofupan/20220821221717.jpg"
               },
-              "icon": "lucide-file",
-              "title": "2026-01-21-第一章：信息化发展"
+              "icon": "lucide-image",
+              "title": "20220821221717"
             }
           }
         ]
@@ -156,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/考证笔记/信息系统管理师（高项）/2026-01-21-第一章：信息化发展.md",
+                "file": "img/gupiaofupan/20220821221717.jpg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-01-21-第一章：信息化发展 的大纲"
+              "title": "20220821221717 的大纲"
             }
           }
         ],
@@ -186,9 +184,13 @@
   },
   "active": "cb5a5070834f29ff",
   "lastOpenFiles": [
-    "img/Z笔记附件/2026-01-21-第一章：信息化发展_image_4.png",
-    "img/Z笔记附件/tmp1769164962365_2026-01-21-第一章：信息化发展_image_4.png",
+    "img/top-photo/125.jpg",
+    "img/top-photo/131.jpg",
     "img/Z笔记附件/2026-01-21-第一章：信息化发展_image_3.png",
+    "img/Z笔记附件/2026-01-21-第一章：信息化发展_image_4.png",
+    "img/Z笔记附件/tmp1760541641098_2025-05-13-关于竞价的规则及交易技巧_image_1.png",
+    "img/Z笔记附件/tmp1769164962365_2026-01-21-第一章：信息化发展_image_4.png",
+    "_posts/考证笔记/信息系统管理师（高项）/2026-01-21-第一章：信息化发展.md",
     "img/Z笔记附件/2026-01-21-第一章：信息化发展_image_2.png",
     "img/Z笔记附件/2026-01-21-第一章：信息化发展_image_1.png",
     "_posts/读书笔记/2026-01-23-人生财富靠康波.md",
@@ -198,7 +200,6 @@
     "_posts/知识库/2025-05-14-同花顺常用公式.md",
     "_posts/读书笔记/2025-01-18-交易至简：交易思维模型训练和实战心法.md",
     "_posts/读书笔记/2021-07-01-大明王朝.md",
-    "_posts/考证笔记/信息系统管理师（高项）/2026-01-21-第一章：信息化发展.md",
     "_posts/读书笔记/未命名.md",
     "_posts/每日复盘/2025-04-08-看盘要点总结.md",
     "_posts/每日复盘/2025-02-19-交易的道与术（一）.md",
