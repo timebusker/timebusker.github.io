@@ -86,10 +86,11 @@ $.preLoadImages();
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
-
+                
 				<!-- {{ content }} -->
+                <!-- 豆包：GitHub上的HUX博客系统，解析文章引用图片路径时默认加上前缀 -->
                 <!-- 修改：全部采用绝对路径 -->
-                {{ content | replace: 'img/', '/img/' }}
+                {{ content | replace: 'img/', '/img/' | replace: '//', '/' }}
 
                 <hr style="visibility: hidden;">
 
