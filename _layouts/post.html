@@ -88,7 +88,8 @@ $.preLoadImages();
                 post-container">
 
 				<!-- {{ content }} -->
-                {{ content | replace: 'img/', '/img/' | replace: 'img/', site.baseurl '/img/' }}
+                <!-- 修改：全部采用绝对路径 -->
+                {{ content | replace: 'img/', '/img/' }}
 
                 <hr style="visibility: hidden;">
 
