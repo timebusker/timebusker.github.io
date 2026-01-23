@@ -16,5 +16,6 @@
   "userIgnoreFilters": null,
   "useMarkdownLinks": true,
   "showUnsupportedFiles": false,
-  "newFileFolderPath": "img/Z笔记附件"
+  "newFileFolderPath": "img/Z笔记附件",
+  "readableLineLength": false
 }

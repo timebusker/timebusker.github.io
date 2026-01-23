@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "25abc13a6257c8b4",
+        "id": "145951f8b9a64165",
         "type": "tabs",
         "children": [
           {
-            "id": "0ef61a1cfd957d6e",
+            "id": "a5df89cda9fc900e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -170,7 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 544.5
+    "width": 679.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,23 +184,30 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "0ef61a1cfd957d6e",
+  "active": "a5df89cda9fc900e",
   "lastOpenFiles": [
+    "_posts/考证笔记/信息系统管理师（高项）/2026-01-24-第二章：息技术发展.md",
+    "_posts/过往云烟/模板/博客模板.md",
+    "_posts/考证笔记/信息系统管理师（高项）/2026-01-21-第一章：信息化发展.md",
+    "img/Z笔记附件/2026-01-21-第一章：信息化发展_image_6.png",
+    "img/Z笔记附件/2026-01-21-第一章：信息化发展_image_5.png",
+    "img/Z笔记附件/2024-09-02- 股票操作复盘总结_image_8.png",
+    "img/Z笔记附件/2024-09-02- 股票操作复盘总结_image_9.png",
+    "img/Z笔记附件/2024-12-05-经典图形笔记_image_15.png",
+    "img/Z笔记附件/2024-12-05-经典图形笔记_image_16.png",
+    "img/Z笔记附件/2024-12-05-经典图形笔记_image_18.png",
+    "img/Z笔记附件/2024-12-05-经典图形笔记_image_19.png",
+    "img/Z笔记附件/2024-12-05-经典图形笔记_image_20.png",
+    "img/Z笔记附件/2025-01-15-个人操作复盘总结_image_1.png",
     "_posts/过往云烟/技术类文章/操作系统相关/2018-03-23-Linux（CentOS）集群之间实现免密登录.md",
+    "_posts/过往云烟/技术类文章/操作系统相关/2018-03-17-Linux（CentOS）利用IOS镜像文件搭建本地yum源服务器.md",
+    "_posts/过往云烟/技术类文章/操作系统相关/2017-01-13-Linux学习笔记(十二)-YUM和RPM指令详解.md",
+    "_posts/过往云烟/技术类文章/操作系统相关/2018-05-30-Linux（CentOS）搭建时间同步服务器.md",
+    "_posts/过往云烟/技术类文章/操作系统相关/2017-01-10-Linux学习笔记(十)-系统用户管理.md",
+    "_posts/过往云烟/技术类文章/操作系统相关/2019-07-23-Linux（CentOS-7）常用指令操作集合.md",
     "_posts/过往云烟/技术类文章/操作系统相关/2018-06-06-Linux（CentOS）让进程在后台可靠运行的几种方法.md",
     "_posts/过往云烟/技术类文章/操作系统相关/2019-10-23-Linux（CentOS）服务开机启动.md",
     "_posts/过往云烟/算法基础/2019-01-01-0013-机器学习基础-降维.md",
-    "_posts/考证笔记/信息系统管理师（高项）/2026-01-21-第一章：信息化发展.md",
-    "img/Z笔记附件/2026-01-21-第一章：信息化发展_image_4.png",
-    "img/gupiaofupan/20220821221717.jpg",
-    "img/top-photo/125.jpg",
-    "img/top-photo/131.jpg",
-    "img/Z笔记附件/2026-01-21-第一章：信息化发展_image_3.png",
-    "img/Z笔记附件/2026-01-21-第一章：信息化发展_image_4.png",
-    "img/Z笔记附件/tmp1760541641098_2025-05-13-关于竞价的规则及交易技巧_image_1.png",
-    "img/Z笔记附件/tmp1769164962365_2026-01-21-第一章：信息化发展_image_4.png",
-    "img/Z笔记附件/2026-01-21-第一章：信息化发展_image_2.png",
-    "img/Z笔记附件/2026-01-21-第一章：信息化发展_image_1.png",
     "_posts/读书笔记/2026-01-23-人生财富靠康波.md",
     "_posts/知识库/2024-09-02- 股票操作复盘总结.md",
     "_posts/知识库/2024-12-05-经典图形笔记.md",
@@ -215,13 +222,6 @@
     "_posts/过往云烟/技术类文章/mybatis相关/2017-12-31-MyBatis系统总结-MyBatis中数据类型转化处理(TypeHandler).md",
     "_posts/过往云烟/技术类文章/mybatis相关/2017-12-31-MyBatis系统总结-MyBatis动态SQL.md",
     "_posts/过往云烟/技术类文章/mybatis相关/2017-12-31-MyBatis系统总结-MyBatis中的ResultMap配置细则(二).md",
-    "_posts/过往云烟/技术类文章/Spring相关/2019-11-14-Spring Boot 使用Maven资源过滤功能导致Excel模板被损坏.md",
-    "_posts/过往云烟/技术类文章/Spring相关/2019-08-21-Spring相关常用注解使用说明.md",
-    "_posts/过往云烟/技术类文章/mybatis相关/2017-12-31-MyBatis系统总结-初识MyBatis.md",
-    "_posts/过往云烟/技术类文章/mybatis相关/2017-12-31-MyBatis系统总结-MyBatis常用配置.md",
-    "_posts/过往云烟/技术类文章/mybatis相关/2017-12-31-MyBatis系统总结-MyBatis缓存配置.md",
-    "_posts/过往云烟/技术类文章/mybatis相关/2017-12-31-MyBatis系统总结-MyBatis映射器配置细则.md",
-    "_posts/过往云烟/技术类文章/mybatis相关/2017-12-31-MyBatis系统总结-MyBatis中的ResultMap配置细则(一).md",
     "未命名.canvas"
   ]
 }
