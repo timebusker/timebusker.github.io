@@ -1,0 +1,34 @@
+{
+  "attachmentFolderPath": "img/assets/${noteFileName}",
+  "attachmentRenameMode": "All",
+  "collectAttachmentUsedByMultipleNotesMode": "Skip",
+  "collectedAttachmentFileName": "",
+  "convertImagesToJpegMode": "None",
+  "customTokensStr": "",
+  "defaultImageSize": "",
+  "defaultImageSizeDimension": "width",
+  "duplicateNameSeparator": "-",
+  "emptyFolderBehavior": "DeleteWithEmptyParents",
+  "excludePaths": [
+    "/过往云烟"
+  ],
+  "excludePathsFromAttachmentCollecting": [],
+  "generatedAttachmentFileName": "${noteFileName}-${date:{momentJsFormat:'mmss'}}",
+  "includePaths": [],
+  "jpegQuality": 1,
+  "markdownUrlFormat": "",
+  "moveAttachmentToProperFolderUsedByMultipleNotesMode": "CopyAll",
+  "renamedAttachmentFileName": "",
+  "shouldDeleteOrphanAttachments": true,
+  "shouldHandleRenames": true,
+  "shouldRenameAttachmentFiles": true,
+  "shouldRenameAttachmentFolder": true,
+  "shouldRenameCollectedAttachments": false,
+  "specialCharacters": "#^[]|*\\<>:?/",
+  "specialCharactersReplacement": "-",
+  "timeoutInSeconds": 5,
+  "treatAsAttachmentExtensions": [
+    ".excalidraw.md"
+  ],
+  "version": "10.3.1"
+}
