@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/每日复盘/2024-03-21-第七章：项目立项管理.md",
+                "file": "_posts/考证笔记/面试集合/医院HRP-DEEPSEEK.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-03-21-第七章：项目立项管理"
+              "title": "医院HRP-DEEPSEEK"
+            }
+          },
+          {
+            "id": "413e69a1e63af590",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/考证笔记/面试集合/医院HRP_IT项目经理面试问答集合.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "医院HRP_IT项目经理面试问答集合"
+            }
+          },
+          {
+            "id": "0069a664c2678806",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/考证笔记/面试集合/项目经理面试集合.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "项目经理面试集合"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/每日复盘/2024-03-21-第七章：项目立项管理.md",
+                "file": "_posts/考证笔记/面试集合/项目经理面试集合.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2024-03-21-第七章：项目立项管理 的大纲"
+              "title": "项目经理面试集合 的大纲"
             }
           }
         ],
@@ -184,13 +213,15 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "0691759ea8a6f7c3",
+  "active": "0069a664c2678806",
   "lastOpenFiles": [
+    "_posts/考证笔记/面试集合/医院HRP IT项目经理（乙方）面试问答集合.md",
+    "_posts/考证笔记/面试集合/医院HRP_IT项目经理面试问答集合.md",
+    "_posts/考证笔记/面试集合/医院HRP-DEEPSEEK.md",
+    "_posts/考证笔记/面试集合/项目经理面试集合.md",
     "_posts/每日复盘/2024-04-08-看盘要点总结.md",
+    "_posts/考证笔记/面试集合",
     "_posts/每日复盘/2024-03-21-第七章：项目立项管理.md",
-    "_posts/每日复盘/医院HRP IT项目经理（乙方）面试问答集合.md",
-    "_posts/每日复盘/医院HRP_IT项目经理面试问答集合.md",
-    "_posts/每日复盘/医院HRP-DEEPSEEK.md",
     "_posts/考证笔记/信息系统管理师（高项）/2026-03-03-第三章：信息系统治理.md",
     "img/404-bg.jpg",
     "img/about-mine-gentle.gif",
@@ -229,7 +260,6 @@
     "_posts/未命名.md",
     "_posts/AI应用",
     "img/assets/2025-04-08-看盘要点总结",
-    "img/assets",
     "_posts/股票相关/知识库/2022-05-13-关于集合竞价的规则及交易技巧.md",
     "未命名.canvas"
   ]
