@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "_posts/考证笔记/面试集合/2023-03-17-医院HRP-DEEPSEEK.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2023-03-17-医院HRP-DEEPSEEK"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "_posts/考证笔记/面试集合/2023-03-17-医院HRP-DEEPSEEK.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "2023-03-17-医院HRP-DEEPSEEK 的大纲"
             }
           }
         ],
@@ -227,8 +227,9 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "04771569f0a292ab",
+  "active": "a0b2cd1699495b17",
   "lastOpenFiles": [
+    "README.md",
     "_posts/考证笔记/面试集合/2023-03-17-医院HRP_IT项目经理面试问答集合.md",
     "_posts/考证笔记/面试集合/2023-03-17-医院HRP-DEEPSEEK.md",
     "_posts/考证笔记/面试集合/2023-03-17-医院HRP IT项目经理（乙方）面试问答集合.md",
