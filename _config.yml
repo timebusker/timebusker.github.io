@@ -64,12 +64,7 @@ netease_comment: false
 # 统计
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 1af286c4d389d9e668bb250fc25ec135
-
-# Google Analytics
-# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-# ga_domain: auto
-
+ba_track_id: 405a302c3735416f59428f39d40fb2af
 
 
 
