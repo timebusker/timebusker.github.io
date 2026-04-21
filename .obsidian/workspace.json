@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/读书笔记/2026-03-20-认知觉醒：开启自我改变的原动力.md",
+                "file": "_posts/Z工作目录/2026-04-21-入职材料.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-20-认知觉醒：开启自我改变的原动力"
+              "title": "2026-04-21-入职材料"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/读书笔记/2026-03-20-认知觉醒：开启自我改变的原动力.md",
+                "file": "_posts/Z工作目录/2026-04-21-入职材料.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-03-20-认知觉醒：开启自我改变的原动力 的大纲"
+              "title": "2026-04-21-入职材料 的大纲"
             }
           }
         ],
@@ -184,11 +184,12 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "04771569f0a292ab",
+  "active": "fef952625a00ff93",
   "lastOpenFiles": [
+    "_posts/读书笔记/2026-03-20-认知觉醒：开启自我改变的原动力.md",
+    "_posts/Z工作目录/2026-04-21-入职材料.md",
     "_posts/Z工作目录",
     "_posts/未命名.md",
-    "_posts/读书笔记/2026-03-20-认知觉醒：开启自我改变的原动力.md",
     "_posts/股票相关/知识库/2024-12-05-经典图形笔记.md",
     "img/assets/2024-12-05-经典图形笔记/2024-12-05-经典图形笔记-3559.png",
     "img/assets/2024-12-05-经典图形笔记/2024-12-05-经典图形笔记-3438.png",
@@ -231,7 +232,6 @@
     "img/assets/2026-03-03-第三章：信息系统治理",
     "img/assets/2024-12-05-经典图形笔记",
     "img/assets/2026-02-11-OpenClaw本地部署使用",
-    "img/assets/2026-02-12-本地部署测试大模型",
     "未命名.canvas"
   ]
 }
