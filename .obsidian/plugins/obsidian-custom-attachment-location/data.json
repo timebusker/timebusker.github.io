@@ -14,7 +14,9 @@
   ],
   "excludePathsFromAttachmentCollecting": [],
   "generatedAttachmentFileName": "${noteFileName}-${date:{momentJsFormat:'mmss'}}",
-  "includePaths": [],
+  "includePaths": [
+    "/Z工作目录"
+  ],
   "jpegQuality": 1,
   "markdownUrlFormat": "",
   "moveAttachmentToProperFolderUsedByMultipleNotesMode": "CopyAll",
