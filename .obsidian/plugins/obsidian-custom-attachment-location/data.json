@@ -1,29 +1,25 @@
 {
   "attachmentFolderPath": "img/assets/${noteFileName}",
-  "attachmentRenameMode": "All",
-  "collectAttachmentUsedByMultipleNotesMode": "Copy",
+  "attachmentRenameMode": "Only pasted images",
+  "collectAttachmentUsedByMultipleNotesMode": "Skip",
   "collectedAttachmentFileName": "",
   "convertImagesToJpegMode": "None",
   "customTokensStr": "",
   "defaultImageSize": "",
   "defaultImageSizeDimension": "width",
-  "duplicateNameSeparator": "-",
-  "emptyFolderBehavior": "DeleteWithEmptyParents",
-  "excludePaths": [
-    "/过往云烟"
-  ],
+  "duplicateNameSeparator": " ",
+  "emptyAttachmentFolderBehavior": "DeleteWithEmptyParents",
+  "excludePaths": [],
   "excludePathsFromAttachmentCollecting": [],
-  "generatedAttachmentFileName": "${noteFileName}-${date:{momentJsFormat:'mmss'}}",
-  "includePaths": [
-    "/Z工作目录"
-  ],
-  "jpegQuality": 1,
+  "generatedAttachmentFileName": "${noteFileName}-${date:HHmmss}",
+  "includePaths": [],
+  "jpegQuality": 0.8,
   "markdownUrlFormat": "",
   "moveAttachmentToProperFolderUsedByMultipleNotesMode": "CopyAll",
   "renamedAttachmentFileName": "",
-  "shouldDeleteOrphanAttachments": true,
+  "shouldDeleteOrphanAttachments": false,
   "shouldHandleRenames": true,
-  "shouldRenameAttachmentFiles": true,
+  "shouldRenameAttachmentFiles": false,
   "shouldRenameAttachmentFolder": true,
   "shouldRenameCollectedAttachments": false,
   "specialCharacters": "#^[]|*\\<>:?/",
@@ -32,5 +28,5 @@
   "treatAsAttachmentExtensions": [
     ".excalidraw.md"
   ],
-  "version": "10.3.1"
+  "version": ""
 }
