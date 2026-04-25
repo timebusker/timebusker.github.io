@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "009d7b795c5da35f",
+        "id": "a7625dde6835850f",
         "type": "tabs",
         "children": [
           {
-            "id": "cff50985faae3786",
+            "id": "6f8d061dcd792673",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/读书笔记/2022-04-06-交易之路.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2022-04-06-交易之路"
+              "title": "新标签页"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/读书笔记/2022-04-06-交易之路.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2022-04-06-交易之路 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -183,8 +178,10 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "cff50985faae3786",
+  "active": "6f8d061dcd792673",
   "lastOpenFiles": [
+    "_posts/考证笔记/2026-01-14-软考准备.md",
+    "_posts/读书笔记/2022-04-06-交易之路.md",
     "_posts/读书笔记/2024-03-10-股票投资入门、进阶与实战.md",
     "_posts/读书笔记/2026-01-23-人生财富靠康波.md",
     "_posts/读书笔记/2026-03-20-认知觉醒.md",
@@ -220,14 +217,12 @@
     "img/assets/2026-03-15-第六章：项目管理概论（项目管理基础知识）/Pasted image 20260424162753.png",
     "img/assets/2026-03-15-第六章：项目管理概论（项目管理基础知识）/Pasted image 20260424162235.png",
     "img/assets/2026-03-15-第六章：项目管理概论（项目管理基础知识）",
-    "_posts/考证笔记/2026-01-14-软考准备.md",
     "_posts/Z工作目录/2026-04-21-入职材料.md",
     "_posts/Z工作目录/云南肿瘤医院/2026-04-23-合同管理系统测试.md",
     "_posts/Z工作目录/云南肿瘤医院/2026-04-23-VNP使用.md",
     "_posts/Z工作目录/云南肿瘤医院/2026-04-24-合同管理系统测试.md",
     "_posts/读书笔记/2023-04-19-金字塔原理.md",
     "_posts/读书笔记/2022-04-19-同花顺炒股实战.md",
-    "_posts/读书笔记/2022-04-06-交易之路.md",
     "_posts/读书笔记/2021-07-01-大明王朝1566.md",
     "_posts/未命名.md",
     "未命名.canvas"
