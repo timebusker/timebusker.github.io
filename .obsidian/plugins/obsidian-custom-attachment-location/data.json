@@ -5,7 +5,7 @@
   "collectedAttachmentFileName": "",
   "convertImagesToJpegMode": "None",
   "customTokensStr": "",
-  "defaultImageSize": "1000px",
+  "defaultImageSize": "800px",
   "defaultImageSizeDimension": "width",
   "duplicateNameSeparator": " ",
   "emptyAttachmentFolderBehavior": "DeleteWithEmptyParents",
